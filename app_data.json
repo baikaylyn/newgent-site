@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-18T05:02:57+00:00",
+  "generated_at": "2026-11-18T05:05:48+00:00",
   "live": [
     {
       "code": "C",
@@ -41,7 +41,115 @@
   ],
   "headlines": [
     {
-      "id": "c607d807fb1",
+      "id": "c3ffe6ae6e3",
+      "title": "蔡天鳳碎屍案｜鄺球稱對兩子一視同仁 否認與鄺港智不和 曾為幼子還款600萬元",
+      "url": "https://www.stheadline.com/society/3638431/蔡天鳳碎屍案鄺球稱對兩子一視同仁-否認與鄺港智不和-曾為幼子還款600萬元",
+      "summary": "28歲名媛蔡天鳳（Abby Choi）2023年2月疑遭殺害後肢解烹屍，蔡天鳳前夫鄺港智、前家翁鄺球、前夫兄長鄺港傑否認謀殺罪。",
+      "summary_short": "28歲名媛蔡天鳳（Abby Choi）2023年2月疑遭殺害後肢解烹屍，蔡天鳳前夫鄺港智、前家翁鄺球…",
+      "digest": "28歲名媛蔡天鳳（Abby Choi）2023年2月疑遭殺害後肢解烹屍…",
+      "section": "港聞",
+      "category": "港聞",
+      "source": "stheadline",
+      "source_display": "星島頭條",
+      "published_at": "2026-11-18T12:50:30+08:00",
+      "size": 6,
+      "keywords": [],
+      "image": "",
+      "lang": "zh-Hant",
+      "items": [
+        {
+          "title": "蔡天鳳碎屍案｜鄺球稱對兩子一視同仁 否認與鄺港智不和 曾為幼子還款600萬元",
+          "url": "https://www.stheadline.com/society/3638431/蔡天鳳碎屍案鄺球稱對兩子一視同仁-否認與鄺港智不和-曾為幼子還款600萬元",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:50:30+08:00",
+          "category": "港聞"
+        },
+        {
+          "title": "蔡天鳳碎屍案｜鄺球稱為家中每人分配角色 蔡天鳳負責財政與鄺港智研究投資",
+          "url": "https://www.stheadline.com/society/3638411/蔡天鳳碎屍案鄺球稱為家中每人分配角色-蔡天鳳負責財政與鄺港智研究投資",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:12:06+08:00",
+          "category": "港聞"
+        },
+        {
+          "title": "蔡天鳳碎屍案｜鄺球︰自己負責肢解蔡天鳳 絕無預謀殺人",
+          "url": "https://news.tvb.com/tc/1207009-蔡天鳳碎屍案鄺球自己負責肢解蔡天鳳絕無預謀殺人",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T11:58+08:00",
+          "category": "法庭"
+        },
+        {
+          "title": "蔡天鳳碎屍案｜鄺球認對蔡天鳳被肢解負全責 「我企喺度，對住個膠箱呆咗」",
+          "url": "https://www.stheadline.com/society/3638378/蔡天鳳碎屍案鄺球認對蔡天鳳被肢解負全責-我企喺度對住個膠箱呆咗",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T10:42:45+08:00",
+          "category": "港聞"
+        },
+        {
+          "title": "蔡天鳳碎屍案｜鄺球首度作供指大湯煲用作種植物 曾匯款三千萬予蔡買樓",
+          "url": "https://news.tvb.com/tc/1206889-蔡天鳳碎屍案鄺球首度作供指大湯煲用作種植物曾匯款三千萬予蔡買樓",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-17T17:53+08:00",
+          "category": "港聞"
+        },
+        {
+          "title": "蔡天鳳碎屍案｜鄺球指累計匯款三千萬予蔡買樓 否認蔡每月給家用",
+          "url": "https://news.tvb.com/tc/1206873-蔡天鳳碎屍案鄺球指累計匯款三千萬予蔡買樓否認蔡每月給家用",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-17T17:12+08:00",
+          "category": "法庭"
+        }
+      ]
+    },
+    {
+      "id": "cb6137d1782",
+      "title": "深圳APEC｜記者直擊香蜜湖主場館 佈防森嚴 封路管制「打卡位」人潮消失",
+      "url": "https://www.stheadline.com/politics/3638422/深圳APEC記者直擊香蜜湖主場館-佈防森嚴-封路管制打卡位人潮消失",
+      "summary": "全球矚目的亞太經合組織（APEC）第33次領導人非正式會議，今明兩日（18至19日）於深圳舉行。",
+      "summary_short": "全球矚目的亞太經合組織（APEC）第33次領導人非正式會議，今明兩日（18至19日）於深圳舉行。",
+      "digest": "全球矚目的亞太經合組織第33次領導人非正式會議，今明兩日於深圳舉行",
+      "section": "港聞",
+      "category": "港聞",
+      "source": "stheadline",
+      "source_display": "星島頭條",
+      "published_at": "2026-11-18T12:42:08+08:00",
+      "size": 4,
+      "keywords": [],
+      "image": "",
+      "lang": "zh-Hant",
+      "items": [
+        {
+          "title": "深圳APEC｜記者直擊香蜜湖主場館 佈防森嚴 封路管制「打卡位」人潮消失",
+          "url": "https://www.stheadline.com/politics/3638422/深圳APEC記者直擊香蜜湖主場館-佈防森嚴-封路管制打卡位人潮消失",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:42:08+08:00",
+          "category": "港聞"
+        },
+        {
+          "title": "深圳APEC｜雷軍發言緊張意外成熱搜 小米回應「這麼大的國際場合，緊張太正常」",
+          "url": "https://www.stheadline.com/realtime-finance/3638393/深圳APEC雷軍發言緊張意外成熱搜-小米回應這麼大的國際場合緊張太正常",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:20:42+08:00",
+          "category": "財經"
+        },
+        {
+          "title": "深圳APEC｜習近平發表主旨演講 即與普京會晤︱不斷更新",
+          "url": "https://www.stheadline.com/realtime-china/3638328/深圳APEC習近平發表主旨演講-即與普京會晤不斷更新",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:04:27+08:00",
+          "category": "兩岸國際"
+        },
+        {
+          "title": "深圳APEC｜習近平：「十五五規劃」邀約全球工商界 籲共建亞太共同體",
+          "url": "https://www.stheadline.com/realtime-china/3638381/深圳APEC習近平十五五規劃邀約全球工商界-籲共建亞太共同體",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T10:53:33+08:00",
+          "category": "兩岸國際"
+        }
+      ]
+    },
+    {
+      "id": "c04f90cd7ed",
       "title": "APEC．最新片段｜中俄領導人於深圳會面",
       "url": "https://news.tvb.com/tc/1207013-APEC最新片段中俄領導人於深圳會面",
       "summary": "亞太經合組織(APEC)工商領導人峰會在深圳舉行，國家主席習近平及俄羅斯總統普京會面。",
@@ -52,7 +160,7 @@
       "source": "tvb",
       "source_display": "无綫新闻 TVB News",
       "published_at": "2026-11-18T12:16+08:00",
-      "size": 7,
+      "size": 12,
       "keywords": [],
       "image": "https://pro-vod-cdn.tvb.com/ab68762bc66f47a1958c5c5909f4590f/snapshots/023c0c6daac1435981cbbcff57fda8c3-00008.jpg",
       "lang": "zh-Hant",
@@ -79,6 +187,20 @@
           "category": "兩岸"
         },
         {
+          "title": "APEC．現場｜工商領導人峰會今舉行開幕式 習近平出席大合照環節",
+          "url": "https://news.tvb.com/tc/1206990-APEC現場工商領導人峰會今舉行開幕式習近平出席大合照環節",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T09:53+08:00",
+          "category": "兩岸"
+        },
+        {
+          "title": "APEC｜工商領導人峰會續於前海舉行 會場附近安保加強",
+          "url": "https://news.tvb.com/tc/1206985-APEC工商領導人峰會續於前海舉行會場附近安保加強",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T09:12+08:00",
+          "category": "兩岸"
+        },
+        {
           "title": "APEC｜小米董事長雷軍：相信AI為亞太經濟帶來巨大機會",
           "url": "https://news.tvb.com/tc/1206973-APEC小米董事長雷軍相信AI為亞太經濟帶來巨大機會",
           "source_display": "无綫新闻 TVB News",
@@ -90,6 +212,13 @@
           "url": "https://news.tvb.com/tc/1206797-APEC中國年雁陣齊飛向未來新華社特稿回顧習近平推動亞太合作歷程延伸閱讀",
           "source_display": "无綫新闻 TVB News",
           "published_at": "2026-11-18T07:30:00+08:00",
+          "category": "兩岸"
+        },
+        {
+          "title": "APEC在大灣區｜展現中國速度 深圳大都會活力 深港互聯互通成亞太新範本｜綜合分析",
+          "url": "https://news.tvb.com/tc/1206863-APEC在大灣區展現中國速度深圳大都會活力深港互聯互通成亞太新範本綜合分析",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T07:15+08:00",
           "category": "兩岸"
         },
         {
@@ -105,39 +234,60 @@
           "source_display": "无綫新闻 TVB News",
           "published_at": "2026-11-18T06:02+08:00",
           "category": "兩岸"
+        },
+        {
+          "title": "APEC｜因應會議新界北部設臨時限制飛行區 兩人涉區內放無人機被捕",
+          "url": "https://news.tvb.com/tc/1206955-APEC因應會議新界北部設臨時限制飛行區兩人涉區內放無人機被捕",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T05:11+08:00",
+          "category": "港聞"
+        },
+        {
+          "title": "APEC｜習近平晤多國領導人 願推動中加新型戰略夥伴關係向前發展",
+          "url": "https://news.tvb.com/tc/1206881-APEC習近平晤多國領導人願推動中加新型戰略夥伴關係向前發展",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-17T17:32+08:00",
+          "category": "兩岸"
         }
       ]
     },
     {
-      "id": "c87b15abed4",
-      "title": "蔡天鳳碎屍案｜鄺球稱對兩子一視同仁 否認與鄺港智不和 曾為幼子還款600萬元",
-      "url": "https://www.stheadline.com/society/3638431/蔡天鳳碎屍案鄺球稱對兩子一視同仁-否認與鄺港智不和-曾為幼子還款600萬元",
-      "summary": "28歲名媛蔡天鳳（Abby Choi）2023年2月疑遭殺害後肢解烹屍，蔡天鳳前夫鄺港智、前家翁鄺球、前夫兄長鄺港傑否認謀殺罪。",
-      "summary_short": "28歲名媛蔡天鳳（Abby Choi）2023年2月疑遭殺害後肢解烹屍，蔡天鳳前夫鄺港智、前家翁鄺球…",
-      "digest": "28歲名媛蔡天鳳（Abby Choi）2023年2月疑遭殺害後肢解烹屍…",
-      "section": "港聞",
-      "category": "港聞",
-      "source": "stheadline",
-      "source_display": "星島頭條",
-      "published_at": "2026-11-18T12:50:30+08:00",
-      "size": 2,
+      "id": "c08c43ad74c",
+      "title": "中俄美元首會晤｜三方訴求各異 專家：難靠一次會晤成轉折點｜國際分析",
+      "url": "https://news.tvb.com/tc/1206866-中俄美元首會晤三方訴求各異專家難靠一次會晤成轉折點國際分析",
+      "summary": "國家主席習近平本周四將與俄羅斯總統普京、美國總統特朗普，在深圳APEC領導人非正式會議期間，舉行中俄美元首會晤，中方稱這次會晤有開創性意義。這將是中俄美三國元首歷史上首次面對面會晤。",
+      "summary_short": "國家主席習近平本周四將與俄羅斯總統普京、美國總統特朗普，在深圳APEC領導人非正式會議期間，舉行中俄美元首會晤…",
+      "digest": "國家主席習近平本周四將與俄羅斯總統普京、美國總統特朗普…",
+      "section": "兩岸國際",
+      "category": "國際",
+      "source": "tvb",
+      "source_display": "无綫新闻 TVB News",
+      "published_at": "2026-11-18T07:05+08:00",
+      "size": 3,
       "keywords": [],
-      "image": "",
+      "image": "https://pro-vod-cdn.tvb.com/08b3d9c322c94533ab7015bf179475a5/snapshots/87ab50f9eff04ca3ad121bea94f195bd-00006.jpg",
       "lang": "zh-Hant",
       "items": [
         {
-          "title": "蔡天鳳碎屍案｜鄺球稱對兩子一視同仁 否認與鄺港智不和 曾為幼子還款600萬元",
-          "url": "https://www.stheadline.com/society/3638431/蔡天鳳碎屍案鄺球稱對兩子一視同仁-否認與鄺港智不和-曾為幼子還款600萬元",
-          "source_display": "星島頭條",
-          "published_at": "2026-11-18T12:50:30+08:00",
-          "category": "港聞"
+          "title": "中俄美元首會晤｜三方訴求各異 專家：難靠一次會晤成轉折點｜國際分析",
+          "url": "https://news.tvb.com/tc/1206866-中俄美元首會晤三方訴求各異專家難靠一次會晤成轉折點國際分析",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T07:05+08:00",
+          "category": "國際"
         },
         {
-          "title": "蔡天鳳碎屍案｜鄺球︰自己負責肢解蔡天鳳 絕無預謀殺人",
-          "url": "https://news.tvb.com/tc/1207009-蔡天鳳碎屍案鄺球自己負責肢解蔡天鳳絕無預謀殺人",
+          "title": "中俄美元首會晤｜被形容為二戰後新版雅爾塔會議 《環時》指屬誤解",
+          "url": "https://news.tvb.com/tc/1206719-中俄美元首會晤被形容為二戰後新版雅爾塔會議環時指屬誤解",
           "source_display": "无綫新闻 TVB News",
-          "published_at": "2026-11-18T11:58+08:00",
-          "category": "法庭"
+          "published_at": "2026-11-16T21:59+08:00",
+          "category": "兩岸"
+        },
+        {
+          "title": "中俄美元首會晤｜北京稱具開創性意義 就圍繞維護世界和平深入交換意見",
+          "url": "https://news.tvb.com/tc/1206616-中俄美元首會晤北京稱具開創性意義就圍繞維護世界和平深入交換意見",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-16T15:41+08:00",
+          "category": "兩岸"
         }
       ]
     },
@@ -159,23 +309,6 @@
       "lang": "zh-Hant"
     },
     {
-      "id": "cb201303848",
-      "title": "深圳APEC｜記者直擊香蜜湖主場館 佈防森嚴 封路管制「打卡位」人潮消失",
-      "url": "https://www.stheadline.com/politics/3638422/深圳APEC記者直擊香蜜湖主場館-佈防森嚴-封路管制打卡位人潮消失",
-      "summary": "全球矚目的亞太經合組織（APEC）第33次領導人非正式會議，今明兩日（18至19日）於深圳舉行。",
-      "summary_short": "全球矚目的亞太經合組織（APEC）第33次領導人非正式會議，今明兩日（18至19日）於深圳舉行。",
-      "digest": "全球矚目的亞太經合組織第33次領導人非正式會議，今明兩日於深圳舉行",
-      "section": "港聞",
-      "category": "港聞",
-      "source": "stheadline",
-      "source_display": "星島頭條",
-      "published_at": "2026-11-18T12:42:08+08:00",
-      "size": 1,
-      "keywords": [],
-      "image": "",
-      "lang": "zh-Hant"
-    },
-    {
       "id": "cb0ed34ba4f",
       "title": "（深圳APEC）习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲",
       "url": "https://www.chinanews.com.cn/gn/2026/11-18/10733987.shtml",
@@ -191,29 +324,12 @@
       "keywords": [],
       "image": "",
       "lang": "zh-Hans"
-    },
-    {
-      "id": "c895f2d8269",
-      "title": "（深圳APEC）习近平：“十五五”规划是中国面向全球工商界发出的合作邀约",
-      "url": "https://www.chinanews.com.cn/gn/2026/11-18/10733985.shtml",
-      "summary": "中新社深圳11月18日电 11月18日上午，中国国家主席习近平在深圳出席2026年亚太经合组织工商领导人峰会开幕式并发表主旨演讲。",
-      "summary_short": "中新社深圳11月18日电 11月18日上午，中国国家主席习近平在深圳出席2026年亚太经合组织工商领导人峰会开幕式并发表…",
-      "digest": "11月18日上午…",
-      "section": "兩岸國際",
-      "category": "兩岸國際",
-      "source": "chinanews",
-      "source_display": "中國新聞網",
-      "published_at": "2026-11-18T12:49:49+08:00",
-      "size": 1,
-      "keywords": [],
-      "image": "",
-      "lang": "zh-Hans"
     }
   ],
   "sections": [
     {
       "name": "港聞",
-      "total": 3,
+      "total": 18,
       "items": [
         {
           "id": "c05759c3556",
@@ -250,28 +366,198 @@
           "lang": "zh-Hant"
         },
         {
-          "id": "cbfb15fb88d",
-          "title": "柴灣聖米迦勒小學男童疑遭欺凌臀部受傷 教育局稱「零容忍」",
-          "url": "https://news.tvb.com/tc/1206251-柴灣聖米迦勒小學男童疑遭欺凌臀部受傷教育局稱零容忍",
-          "summary": "聖公會柴灣聖米迦勒小學懷疑發生欺凌，警方列作襲擊致造成身體傷害跟進，暫時未有人被捕。教育局稱十分關注事件，強調對校園欺凌「零容忍」。",
-          "summary_short": "聖公會柴灣聖米迦勒小學懷疑發生欺凌，警方列作襲擊致造成身體傷害跟進，暫時未有人被捕。",
-          "digest": "聖公會柴灣聖米迦勒小學懷疑發生欺凌，警方列作襲擊致造成身體傷害跟進，暫時未有人被捕",
+          "id": "c2dd76b263f",
+          "title": "陽光四款慳電膽 能源效益表現未達標 即日起禁止在港供應",
+          "url": "https://www.stheadline.com/society/3638400/陽光四款慳電膽-能源效益表現未達標-即日起禁止在港供應",
+          "summary": "機電署公布，根據《能源效益（產品標籤）條例》，將陽光牌（sunshine）4款緊湊型熒光燈（慳電膽），從《條例》訂明的表列型號紀錄冊中剔除，即日起不得在本港供應。",
+          "summary_short": "機電署公布，根據《能源效益（產品標籤）條例》，將陽光牌（sunshine）4款緊湊型熒光燈（慳電膽）…",
+          "digest": "機電署公布，根據《能源效益條例》，將陽光牌（sunshine）4款緊湊型熒光燈…",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:57:37+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "cfbbdab157f",
+          "title": "選委會界別分組選舉11.22舉行 羅淑佩籲選民踴躍投票",
+          "url": "https://www.stheadline.com/politics/3638395/選委會界別分組選舉1122舉行-羅淑佩籲選民踴躍投票",
+          "summary": "2026年選舉委員會界別分組一般選舉，本周日（22日）舉行，文化體育及旅遊局局長羅淑佩呼籲選民踴躍投票，指選委會肩負提名行政長官選舉候選人及選出行政長官的重任…",
+          "summary_short": "2026年選舉委員會界別分組一般選舉，本周日（22日）舉行，文化體育及旅遊局局長羅淑佩呼籲選民踴躍投票…",
+          "digest": "2026年選舉委員會界別分組一般選舉，本周日舉行…",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:55:32+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c0101801ae5",
+          "title": "AI成黑客「武器」？FBI警示ARTEX遭大規模濫用 方保僑：AI攻擊工具已被產業化濫用",
+          "url": "https://www.stheadline.com/society/3638382/AI成黑客武器FBI警示ARTEX遭大規模濫用-方保僑AI攻擊工具已被產業化濫用",
+          "summary": "人工智能（AI）技術急速發展，惟不法分子亦乘勢將AI工具武器化。",
+          "summary_short": "人工智能（AI）技術急速發展，惟不法分子亦乘勢將AI工具武器化。",
+          "digest": "人工智能技術急速發展，惟不法分子亦乘勢將AI工具武器化",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:18:19+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c7a7ebed1d6",
+          "title": "天文台｜冷鋒今殺到！晚上市區氣溫降至約21度 周五周六氣溫僅15、16度",
+          "url": "https://www.stheadline.com/society/3638340/天文台冷鋒今殺到晚上市區氣溫降至約21度-周五周六氣溫僅1516度",
+          "summary": "天文台發出特別天氣提示，指現時位於廣東北部的一道冷鋒正逐漸向南移動，預料會在今日（11月18日）稍後橫過沿岸地區。",
+          "summary_short": "天文台發出特別天氣提示，指現時位於廣東北部的一道冷鋒正逐漸向南移動，預料會在今日（11月18日）稍後橫過沿岸地區。",
+          "digest": "天文台發出特別天氣提示，指現時位於廣東北部的一道冷鋒正逐漸向南移動…",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T10:54:36+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "cc07b6a0a36",
+          "title": "警大嶼山打擊電動單車 拘2男女",
+          "url": "https://www.stheadline.com/breaking-news/3638376/警大嶼山打擊電動單車-拘2男女",
+          "summary": "大嶼山警區交通隊及軍裝巡邏小隊昨日（17日）在區內進行打擊非法使用電動可移動工具行動。",
+          "summary_short": "大嶼山警區交通隊及軍裝巡邏小隊昨日（17日）在區內進行打擊非法使用電動可移動工具行動。",
+          "digest": "大嶼山警區交通隊及軍裝巡邏小隊在區內進行打擊非法使用電動可移動工具行動",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T10:43:36+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c319192d383",
+          "title": "香港大學站附近信號設備故障 港島綫列車服務一度受阻近2小時",
+          "url": "https://www.stheadline.com/breaking-news/3638357/香港大學站附近信號設備故障-港島綫列車服務一度受阻近2小時",
+          "summary": "今日（18日）早上8時46分，港鐵表示，由於香港大學站附近有信號設備故障，列車行經該路段需要慢駛。",
+          "summary_short": "今日（18日）早上8時46分，港鐵表示，由於香港大學站附近有信號設備故障，列車行經該路段需要慢駛。",
+          "digest": "早上8時46分，港鐵表示，由於香港大學站附近有信號設備故障，列車行經該路段需要慢駛",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T10:38:58+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "cc6c547e52a",
+          "title": "青年失業率高於整體失業率 議員倡為青年提供重點支援培訓及放寬工時門檻",
+          "url": "https://www.stheadline.com/society/3638367/青年失業率高於整體失業率-議員倡為青年提供重點支援培訓及放寬工時門檻",
+          "summary": "本港8月至10月失業率回落3.8%，較上月公布的3.9%輕微下跌0.1個百分點，就業不足率則維持2%。",
+          "summary_short": "本港8月至10月失業率回落3.8%，較上月公布的3.9%輕微下跌0.1個百分點，就業不足率則維持2%。",
+          "digest": "本港8月至10月失業率回落3.8%，較上月公布的3.9%輕微下跌0.1個百分點…",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T10:11:19+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c4d0ce67505",
+          "title": "報章要聞｜明報：家長常用是與否幼兒詞彙較少／東方：機械人進社區計劃收逾20申請",
+          "url": "https://news.tvb.com/tc/1206979-報章要聞明報家長常用是與否幼兒詞彙較少東方機械人進社區計劃收逾20申請",
+          "summary": "明報報道：研資局上周海報展覽，展出30個獲撥款的教員發展計劃研究成果。東華學院學者獲撥款約80萬元，研究家長語言輸入質素與幼兒能力發展的關係，發現家長向幼童講故事，並非講得愈多愈好，關鍵在於能否利用句子變化與內容層次引導幼童思考。",
+          "summary_short": "明報報道：研資局上周海報展覽，展出30個獲撥款的教員發展計劃研究成果。",
+          "digest": "明報報道：研資局上周海報展覽，展出30個獲撥款的教員發展計劃研究成果",
           "section": "港聞",
           "category": "港聞",
           "source": "tvb",
           "source_display": "无綫新闻 TVB News",
-          "published_at": "2026-11-13T20:38+08:00",
+          "published_at": "2026-11-18T08:21+08:00",
           "size": 1,
           "keywords": [],
-          "image": "https://pro-vod-cdn.tvb.com/3f5c35e647a04c91aa58facc1168135c/snapshots/f2488768622f40a8a7dd94445d486942-00006.jpg",
+          "image": "https://pro-vod-cdn.tvb.com/c976d339ccce4318980ffc4ee986ee94/snapshots/14c0ca8dbacc4d70826ef963d92106d1-00008.jpg",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "cb3c53f66e9",
+          "title": "新聞透視．延伸閱讀｜納米樓規管與倫敦經驗：港人住屋面積規管之路",
+          "url": "https://news.tvb.com/tc/1206737-新聞透視延伸閱讀納米樓規管與倫敦經驗港人住屋面積規管之路",
+          "summary": "港人居住空間狹窄，早已是切身體會。根據2016年中期人口統計，香港人均居所樓面面積僅15平方米，2021年微升至16平方米，其中私人房屋居民為18平方米，公共租住房屋居民只有11.5平方米；居於「劏房」的22.6萬名居民，人均面積更僅得6.6平方米。",
+          "summary_short": "港人居住空間狹窄，早已是切身體會。",
+          "digest": "港人居住空間狹窄，早已是切身體會",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "tvb",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T08:15+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "https://pro-vod-cdn.tvb.com/3dd8ef0b050b4c91bda5ba1d4e2b9c43/snapshots/e90e53c218cc4d54bcc50b204f1253b1-00004.jpg",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c889c2cb871",
+          "title": "尖沙咀多處已亮起聖誕燈飾 有市民讚本港氣氛世界首位",
+          "url": "https://news.tvb.com/tc/1206936-尖沙咀多處已亮起聖誕燈飾有市民讚本港氣氛世界首位",
+          "summary": "距離聖誕節還有個幾月，尖沙咀多處已亮起聖誕燈飾。尖沙咀碼頭對開商場率先以煙火迎接聖誕，戶外化身做三層高的火車站，全長40米，聖誕老人會定時乘坐火車駛出，一班熊仔已率先「到訪」車站，等候市民及旅客來一起打卡。",
+          "summary_short": "距離聖誕節還有個幾月，尖沙咀多處已亮起聖誕燈飾。",
+          "digest": "距離聖誕節還有個幾月，尖沙咀多處已亮起聖誕燈飾",
+          "section": "港聞",
+          "category": "港聞",
+          "source": "tvb",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-17T23:06+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "https://pro-vod-cdn.tvb.com/6309ed24847440589672cb7453bba2b7/snapshots/26577a26de2140e7bd2292b184414d56-00008.jpg",
           "lang": "zh-Hant"
         }
       ]
     },
     {
       "name": "兩岸國際",
-      "total": 11,
+      "total": 33,
       "items": [
+        {
+          "id": "c895f2d8269",
+          "title": "（深圳APEC）习近平：“十五五”规划是中国面向全球工商界发出的合作邀约",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-18/10733985.shtml",
+          "summary": "中新社深圳11月18日电 11月18日上午，中国国家主席习近平在深圳出席2026年亚太经合组织工商领导人峰会开幕式并发表主旨演讲。",
+          "summary_short": "中新社深圳11月18日电 11月18日上午，中国国家主席习近平在深圳出席2026年亚太经合组织工商领导人峰会开幕式并发表…",
+          "digest": "11月18日上午…",
+          "section": "兩岸國際",
+          "category": "兩岸國際",
+          "source": "chinanews",
+          "source_display": "中國新聞網",
+          "published_at": "2026-11-18T12:49:49+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hans"
+        },
         {
           "id": "c20aa2b37ce",
           "title": "（深圳APEC）习近平：中方支持成立世界湾区经济合作联盟",
@@ -392,6 +678,23 @@
           "lang": "zh-Hant"
         },
         {
+          "id": "ceeb3dccfe1",
+          "title": "日本《LDK》評測14款美白牙膏 最高分之選$50有找！可防蛀牙/改善口臭",
+          "url": "https://www.stheadline.com/food-safety/3638062/日本LDK評測14款美白牙膏-最高分之選50有找可防蛀牙改善口臭",
+          "summary": "想擁有自信亮白的笑容，選對美白牙膏至關重要！",
+          "summary_short": "想擁有自信亮白的笑容，選對美白牙膏至關重要！",
+          "digest": "想擁有自信亮白的笑容，選對美白牙膏至關重要",
+          "section": "兩岸國際",
+          "category": "",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:00:40+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
           "id": "cfd5d261e90",
           "title": "福建三明“以侨为桥”聚侨力促发展",
           "url": "https://www.chinanews.com.cn/hr/2026/11-18/10733967.shtml",
@@ -409,51 +712,34 @@
           "lang": "zh-Hans"
         },
         {
-          "id": "cd3e53ebe02",
-          "title": "八分鐘國際新聞重點｜習近平今於APEC會議發表演講／蘋果服務平台一度故障",
-          "url": "https://news.tvb.com/tc/1206949-八分鐘國際新聞重點習近平今於APEC會議發表演講蘋果服務平台一度故障",
-          "summary": "【黃仁勳辭職｜輝達高層指無意讓其復職】美國晶片龍頭輝達創辦人黃仁勳卸任行政總裁後首次發聲明，稱一旦獲公司董事會邀請，他願意復職。輝達高層指未打算讓他復職。",
-          "summary_short": "【黃仁勳辭職｜輝達高層指無意讓其復職】美國晶片龍頭輝達創辦人黃仁勳卸任行政總裁後首次發聲明，稱一旦獲公司董事會邀請…",
-          "digest": "【黃仁勳辭職｜輝達高層指無意讓其復職】美國晶片龍頭輝達創辦人黃仁勳卸任行政總裁後首次…",
-          "section": "兩岸國際",
-          "category": "國際",
-          "source": "tvb",
-          "source_display": "无綫新闻 TVB News",
-          "published_at": "2026-11-18T08:15+08:00",
-          "size": 1,
-          "keywords": [],
-          "image": "https://pro-vod-cdn.tvb.com/ca25c2509dc046e09b9f9b69c3fcbc7e/snapshots/ca8b8af318de4505822d0741978a10a4-00008.jpg",
-          "lang": "zh-Hant"
-        },
-        {
-          "id": "cf1694838e2",
-          "title": "聚焦APEC｜印度尼西亚总统普拉博沃抵达深圳",
-          "url": "https://www.chinanews.com.cn/gn/2026/11-18/10733981.shtml",
-          "summary": "新华社深圳11月18日电(记者杨深深、周颖)印度尼西亚总统普拉博沃18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。",
-          "summary_short": "新华社深圳11月18日电(记者杨深深、周颖)印度尼西亚总统普拉博沃18日抵达深圳…",
-          "digest": "印度尼西亚总统普拉博沃18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议",
+          "id": "ca25f8d035d",
+          "title": "（深圳APEC）王毅会见加拿大外长阿南德",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-18/10733867.shtml",
+          "summary": "中新社深圳11月18日电 11月17日，中共中央政治局委员、外交部长王毅在深圳会见加拿大外长阿南德。",
+          "summary_short": "中新社深圳11月18日电 11月17日，中共中央政治局委员、外交部长王毅在深圳会见加拿大外长阿南德。",
+          "digest": "11月17日，中共中央政治局委员、外交部长王毅在深圳会见加拿大外长阿南德",
           "section": "兩岸國際",
           "category": "兩岸國際",
           "source": "chinanews",
           "source_display": "中國新聞網",
-          "published_at": "2026-11-18T12:15:13+08:00",
+          "published_at": "2026-11-18T11:48:01+08:00",
           "size": 1,
           "keywords": [],
           "image": "",
           "lang": "zh-Hans"
         },
         {
-          "id": "c6105bba0be",
-          "title": "习近平会见俄罗斯总统普京",
-          "url": "https://www.chinanews.com.cn/gn/2026/11-18/10733979.shtml",
-          "summary": "新华社快讯：11月18日，国家主席习近平在深圳会见俄罗斯总统普京。",
-          "summary_short": "新华社快讯：11月18日，国家主席习近平在深圳会见俄罗斯总统普京。",
-          "digest": "新华社快讯：11月18日，国家主席习近平在深圳会见俄罗斯总统普京",
+          "id": "c875280944d",
+          "title": "马来西亚华人张慧清一家重返昆明 与南侨机工外公跨时空“重逢”",
+          "url": "https://www.chinanews.com.cn/hr/2026/11-18/10733928.shtml",
+          "summary": "中新网昆明11月18日电 (白玲 袁鸿凯)17日，昆明市新闻南路。",
+          "summary_short": "中新网昆明11月18日电 (白玲 袁鸿凯)17日，昆明市新闻南路。",
+          "digest": "17日，昆明市新闻南路",
           "section": "兩岸國際",
           "category": "兩岸國際",
           "source": "chinanews",
           "source_display": "中國新聞網",
-          "published_at": "2026-11-18T12:06:58+08:00",
+          "published_at": "2026-11-18T11:47:19+08:00",
           "size": 1,
           "keywords": [],
           "image": "",
@@ -463,7 +749,7 @@
     },
     {
       "name": "財經",
-      "total": 10,
+      "total": 20,
       "items": [
         {
           "id": "cd2f16b8163",
@@ -481,6 +767,23 @@
           "keywords": [],
           "image": "",
           "lang": "zh-Hant"
+        },
+        {
+          "id": "c24c4355e0c",
+          "title": "一张收款码，如何让小店接住国际客流？",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-18/10734000.shtml",
+          "summary": "在深圳蛇口一家面包店的收银台前，一位越南游客掏出手机，扫了扫柜台边的二维码，几秒钟就付完了款。",
+          "summary_short": "在深圳蛇口一家面包店的收银台前，一位越南游客掏出手机，扫了扫柜台边的二维码，几秒钟就付完了款。",
+          "digest": "在深圳蛇口一家面包店的收银台前，一位越南游客掏出手机，扫了扫柜台边的二维码…",
+          "section": "財經",
+          "category": "財經",
+          "source": "chinanews",
+          "source_display": "中國新聞網",
+          "published_at": "2026-11-18T12:57:09+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hans"
         },
         {
           "id": "c15d118331e",
@@ -602,49 +905,146 @@
           "lang": "zh-Hant"
         },
         {
-          "id": "c6594620c67",
-          "title": "德銀大批內部文件外洩 據報顯示銀行為確保利潤無視警告與高風險客戶往來",
-          "url": "https://news.tvb.com/tc/1206968-德銀大批內部文件外洩據報顯示銀行為確保利潤無視警告與高風險客戶往來",
-          "summary": "德意志銀行有1,500萬份內部文件外洩，據報文件顯示德銀為確保利潤，無視與高風險客戶往來的警告，當中包括俄羅斯財閥。據多個外媒報道，德銀自2010年至2015年間，已被發現曾為俄羅斯罪犯、間諜及財閥清洗數十億美元資金。",
-          "summary_short": "德意志銀行有1,500萬份內部文件外洩，據報文件顯示德銀為確保利潤，無視與高風險客戶往來的警告，當中包括俄羅斯財閥。",
-          "digest": "德意志銀行有1,500萬份內部文件外洩，據報文件顯示德銀為確保利潤…",
+          "id": "cabfb54765c",
+          "title": "馬斯克確認訪華 憧憬Tesla在中國落實全自動駕駛",
+          "url": "https://www.stheadline.com/realtime-finance/3638406/馬斯克確認訪華-憧憬Tesla在中國落實全自動駕駛",
+          "summary": "SpaceX及Tesla行政總裁馬斯克（Elon Musk）已證實即將訪問中國。",
+          "summary_short": "SpaceX及Tesla行政總裁馬斯克（Elon Musk）已證實即將訪問中國。",
+          "digest": "SpaceX及Tesla行政總裁馬斯克（Elon Musk）已證實即將訪問中國",
           "section": "財經",
           "category": "財經",
-          "source": "tvb",
-          "source_display": "无綫新闻 TVB News",
-          "published_at": "2026-11-18T06:47:00+08:00",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:59:40+08:00",
           "size": 1,
-          "keywords": [
-            "財經",
-            "俄羅斯",
-            "德銀"
-          ],
-          "image": "https://pro-img-cdn.tvb.com/uploads/image/2026/11/20267JMsgPklgS1794956505.jpg?x-oss-process=image/resize,w_1200",
+          "keywords": [],
+          "image": "",
           "lang": "zh-Hant"
         },
         {
-          "id": "c61fa3f53e1",
-          "title": "輝達第三季度業績勝預期 公司宣布成立國安與出口管制監督委員會",
-          "url": "https://news.tvb.com/tc/1206960-輝達第三季度業績勝預期公司宣布成立國安與出口管制監督委員會",
-          "summary": "人工智能(AI)晶片商輝達Nvidia第三季度業績好過市場預期，股價在延長交易時段一度升超過百分之3。公司季內賺653億美元，按年增長超過一倍。",
-          "summary_short": "人工智能(AI)晶片商輝達Nvidia第三季度業績好過市場預期，股價在延長交易時段一度升超過百分之3。",
-          "digest": "人工智能(AI)晶片商輝達Nvidia第三季度業績好過市場預期…",
+          "id": "cab52d9a1ff",
+          "title": "美SEC據報調查Nvidia 或涉公司披露誤導投資者",
+          "url": "https://www.stheadline.com/realtime-finance/3638403/美SEC據報調查Nvidia-或涉公司披露誤導投資者",
+          "summary": "據《華爾街日報》引述消息報道，美國證券交易委員會（SEC）正對Nvidia（輝達，又稱英偉達）展開民事調查。",
+          "summary_short": "據《華爾街日報》引述消息報道，美國證券交易委員會（SEC）正對Nvidia（輝達，又稱英偉達）展開民事調查。",
+          "digest": "據《華爾街日報》引述消息報道，美國證券交易委員會正對Nvidia（輝達…",
           "section": "財經",
           "category": "財經",
-          "source": "tvb",
-          "source_display": "无綫新闻 TVB News",
-          "published_at": "2026-11-18T06:17+08:00",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:49:43+08:00",
           "size": 1,
           "keywords": [],
-          "image": "https://pro-vod-cdn.tvb.com/12307111eb5b48838b6481077ec55514/snapshots/fb85bdc3b6234defbe7e7a9097496ffc-00006.jpg",
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "cf92f6b16b7",
+          "title": "美AI晶片新規波及AI融資 傳星企叫停貸款 涉購Nvidia晶片供字節跳動",
+          "url": "https://www.stheadline.com/realtime-finance/3638385/美AI晶片新規波及AI融資-傳星企叫停貸款-涉購Nvidia晶片供字節跳動",
+          "summary": "美國收緊AI晶片管制，波及亞洲數據中心融資。",
+          "summary_short": "美國收緊AI晶片管制，波及亞洲數據中心融資。",
+          "digest": "美國收緊AI晶片管制，波及亞洲數據中心融資",
+          "section": "財經",
+          "category": "財經",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:01:24+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
           "lang": "zh-Hant"
         }
       ]
     },
     {
       "name": "生活",
-      "total": 3,
+      "total": 23,
       "items": [
+        {
+          "id": "c49f78099a6",
+          "title": "阿根廷｜達米安馬天尼斯零封神蹟平隊史 「後美斯時代」要加倍努力留住球迷！",
+          "url": "https://www.stheadline.com/football-news/3638437/阿根廷達米安馬天尼斯零封神蹟平隊史-後美斯時代要加倍努力留住球迷",
+          "summary": "阿根廷周二友賽7:0狂數哥斯達黎加，為「後美斯時代」重整旗鼓。",
+          "summary_short": "阿根廷周二友賽7:0狂數哥斯達黎加，為「後美斯時代」重整旗鼓。",
+          "digest": "阿根廷周二友賽7:0狂數哥斯達黎加，為「後美斯時代」重整旗鼓",
+          "section": "生活",
+          "category": "生活",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:59:53+08:00",
+          "size": 2,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant",
+          "items": [
+            {
+              "title": "阿根廷｜達米安馬天尼斯零封神蹟平隊史 「後美斯時代」要加倍努力留住球迷！",
+              "url": "https://www.stheadline.com/football-news/3638437/阿根廷達米安馬天尼斯零封神蹟平隊史-後美斯時代要加倍努力留住球迷",
+              "source_display": "星島頭條",
+              "published_at": "2026-11-18T12:59:53+08:00",
+              "category": "生活"
+            },
+            {
+              "title": "阿根廷｜救到成績救唔到票房 阿根廷7:0炒哥斯達黎加要派飛遮醜",
+              "url": "https://www.stheadline.com/football-news/3638401/阿根廷救到成績救唔到票房-阿根廷70炒哥斯達黎加要派飛遮醜",
+              "source_display": "星島頭條",
+              "published_at": "2026-11-18T12:04:48+08:00",
+              "category": "生活"
+            }
+          ]
+        },
+        {
+          "id": "c54c5884f36",
+          "title": "THE跨學科科學排名2027 港大重奪全港第一 科大新上榜膺全球18",
+          "url": "https://www.stheadline.com/edu-insights/3638253/THE跨學科科學排名2027-港大重奪全港第一-科大新上榜膺全球18",
+          "summary": "跨學科研究在全球大學教育日趨重要，英國《泰晤士高等教育》（THE）公布「跨學科科學排名2027」，本港有6間院校打入全球前百強，香港大學重奪本港第一，排名更升25位打入全球第7…",
+          "summary_short": "跨學科研究在全球大學教育日趨重要，英國《泰晤士高等教育》（THE）公布「跨學科科學排名2027」…",
+          "digest": "跨學科研究在全球大學教育日趨重要…",
+          "section": "生活",
+          "category": "生活",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T13:01:00+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "ca743aeb21d",
+          "title": "梁芷珮13歲細女獨自出境 神複製媽咪美貌身形高䠷變美少女 離港貼心安慰融化阿媽",
+          "url": "https://www.stheadline.com/film-drama/3638237/梁芷珮13歲細女獨自出境-神複製媽咪美貌身形高䠷變美少女-離港貼心安慰融化阿媽",
+          "summary": "梁芷珮近年憑主持《潮什麼》系列爆紅，經常周遊列國帶觀眾睇世界，有旅遊達人之稱。",
+          "summary_short": "梁芷珮近年憑主持《潮什麼》系列爆紅，經常周遊列國帶觀眾睇世界，有旅遊達人之稱。",
+          "digest": "梁芷珮近年憑主持《潮什麼》系列爆紅，經常周遊列國帶觀眾睇世界，有旅遊達人之稱",
+          "section": "生活",
+          "category": "生活",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T13:00:56+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "ca31bebd846",
+          "title": "日本美女抗癌網紅逝世終年41歲！26歲確診零期乳癌 34歲被判剩2個月命 臨終握母手留催淚遺言",
+          "url": "https://www.stheadline.com/health-edu/3638399/日本美女抗癌網紅逝世終年41歲26歲確診零期乳癌-34歲被判剩2個月命-臨終握母手留催淚遺言",
+          "summary": "日本知名抗癌網紅Mimipopo（ミミポポ）日前逝世，終年41歲。",
+          "summary_short": "日本知名抗癌網紅Mimipopo（ミミポポ）日前逝世，終年41歲。",
+          "digest": "日本知名抗癌網紅Mimipopo日前逝世，終年41歲",
+          "section": "生活",
+          "category": "生活",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T13:00:25+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
         {
           "id": "c381d9a5bb8",
           "title": "新西蘭進口Homegrown蘋果汁棒曲霉素超標！食安中心呼籲停飲並回收 附退款/查詢熱線",
@@ -657,6 +1057,40 @@
           "source": "stheadline",
           "source_display": "星島頭條",
           "published_at": "2026-11-18T12:49:07+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c4499d2604f",
+          "title": "洪天明移居深圳後再有新發展 定居杭州為當地一事平反 曾因長期分隔兩地與周家蔚鬧婚變",
+          "url": "https://www.stheadline.com/film-drama/3638391/洪天明移居深圳後再有新發展-定居杭州為當地一事平反-曾因長期分隔兩地與周家蔚鬧婚變",
+          "summary": "「大哥大」洪金寶的長子洪天明與港姐出身的太太周家蔚婚後育有大仔洪大仁和細仔洪竟琋，一家四口生活很開心，不過洪天明近年將事業重心全面北移，每次離家都內地工作都顯得難捨難得…",
+          "summary_short": "「大哥大」洪金寶的長子洪天明與港姐出身的太太周家蔚婚後育有大仔洪大仁和細仔洪竟琋，一家四口生活很開心…",
+          "digest": "「大哥大」洪金寶的長子洪天明與港姐出身的太太周家蔚婚後育有大仔洪大仁和細仔洪竟琋…",
+          "section": "生活",
+          "category": "生活",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:05:19+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c2d054b5213",
+          "title": "JJ加比爾│社媒發文告別曼聯 將與皇馬簽約3年 紅魔僅得310萬補償金",
+          "url": "https://www.stheadline.com/football-news/3638407/JJ加比爾社媒發文告別曼聯-將與皇馬簽約3年-紅魔僅得310萬補償金",
+          "summary": "曼聯青訓神童JJ加比爾(JJ Gabriel)周二在社交媒體發文告別球隊，並指自己將開啟新的篇章，據報他日內就會與皇家馬德里簽約三年，未來兩年先替皇馬B隊出場，第三年才有望提升上一隊。",
+          "summary_short": "曼聯青訓神童JJ加比爾(JJ Gabriel)周二在社交媒體發文告別球隊，並指自己將開啟新的篇章…",
+          "digest": "曼聯青訓神童JJ加比爾(JJ Gabriel)周二在社交媒體發文告別球隊…",
+          "section": "生活",
+          "category": "生活",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:01:16+08:00",
           "size": 1,
           "keywords": [],
           "image": "",
@@ -695,12 +1129,63 @@
           "keywords": [],
           "image": "",
           "lang": "zh-Hans"
+        },
+        {
+          "id": "c4513a95be2",
+          "title": "湖北神农架守护金丝猴平安越冬",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-18/10733961.shtml",
+          "summary": "中新网湖北神农架11月18日电 (郭晓莹 王玉萍)记者18日从神农架国家公园管理局获悉，林区迎来今冬首场降雪，当地正式启动冬季保护工作模式，保障野生川金丝猴种群平安越冬。",
+          "summary_short": "中新网湖北神农架11月18日电 (郭晓莹 王玉萍)记者18日从神农架国家公园管理局获悉，林区迎来今冬首场降雪…",
+          "digest": "记者18日从神农架国家公园管理局获悉，林区迎来今冬首场降雪…",
+          "section": "生活",
+          "category": "生活",
+          "source": "chinanews",
+          "source_display": "中國新聞網",
+          "published_at": "2026-11-18T11:54:34+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hans"
+        },
+        {
+          "id": "ccce8b66423",
+          "title": "载重5吨全球最大、可从北京直飞新疆，两款“空中卡车”试飞成功",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-18/10733956.shtml",
+          "summary": "中新网11月18日电(记者 刁炜)近日，国产无人运输机领域捷报频传：11月14日，目前全球最大的无人货机W5000成功首飞。",
+          "summary_short": "中新网11月18日电(记者 刁炜)近日，国产无人运输机领域捷报频传：11月14日…",
+          "digest": "近日，国产无人运输机领域捷报频传：11月14日…",
+          "section": "生活",
+          "category": "生活",
+          "source": "chinanews",
+          "source_display": "中國新聞網",
+          "published_at": "2026-11-18T11:53:21+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hans"
+        },
+        {
+          "id": "c8e5fe0448d",
+          "title": "（乡村行·看振兴）山西襄垣“四季生金”记：鹌鹑住上“智能房” 虾蟹搬入“暖棚里”",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-18/10733932.shtml",
+          "summary": "初冬时节，走进山西省襄垣县虒亭镇小河村鹌鹑养殖场，一排排笼架整齐排布，25万余羽鹌鹑长势良好。",
+          "summary_short": "初冬时节，走进山西省襄垣县虒亭镇小河村鹌鹑养殖场，一排排笼架整齐排布，25万余羽鹌鹑长势良好。",
+          "digest": "初冬时节，走进山西省襄垣县虒亭镇小河村鹌鹑养殖场，一排排笼架整齐排布…",
+          "section": "生活",
+          "category": "生活",
+          "source": "chinanews",
+          "source_display": "中國新聞網",
+          "published_at": "2026-11-18T11:48:57+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hans"
         }
       ]
     },
     {
       "name": "政府公布",
-      "total": 15,
+      "total": 55,
       "items": [
         {
           "id": "c472de9a6d2",
@@ -910,7 +1395,7 @@
     },
     {
       "name": "其他",
-      "total": 5,
+      "total": 18,
       "items": [
         {
           "id": "c38c5da9453",
@@ -964,6 +1449,138 @@
           "lang": "zh-Hant"
         },
         {
+          "id": "c7591c07c1a",
+          "title": "金山猴子爬上私家車「遊車河」 司機照開車惹爭議",
+          "url": "https://news.tvb.com/tc/1207012-金山猴子爬上私家車遊車河司機照開車惹爭議",
+          "summary": "金山郊野公園一帶向來有不少猴子出沒，近日便有大膽猴子公然在馬路上「截順風車」。網上日前流傳一段影片，拍下在金山郊野公園附近路段，一隻猴子竟爬上一輛私家車，穩穩掛在左邊車頭倒後鏡位置。",
+          "summary_short": "金山郊野公園一帶向來有不少猴子出沒，近日便有大膽猴子公然在馬路上「截順風車」。",
+          "digest": "金山郊野公園一帶向來有不少猴子出沒，近日便有大膽猴子公然在馬路上「截順風車」",
+          "section": "其他",
+          "category": "熱話",
+          "source": "tvb",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T12:15+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "https://pro-vod-cdn.tvb.com/e4e51f092c6e48e083b4304e91c974e9/snapshots/b8d514127e2b4ac99ffd725fe7dda958-00002.jpg",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c0e1381fed4",
+          "title": "31歲人妻怨戀愛腦變「地獄開局」 未婚懷孕嫁基層：「無諗過人生行成咁...」 網民揭自救出路｜Juicy叮",
+          "url": "https://www.stheadline.com/local-topics/3637646/31歲人妻怨戀愛腦變地獄開局-未婚懷孕嫁基層無諗過人生行成咁-網民揭自救出路Juicy叮",
+          "summary": "一位31歲的本港人妻在Threads發帖引發網民關注，帖文字裡行間充滿了絕望與無奈，她自揭瘡疤，指自己學歷只有基礎文憑，過往擔任會計文員月入$17k，但自從懷孕後便辭去工作。",
+          "summary_short": "一位31歲的本港人妻在Threads發帖引發網民關注，帖文字裡行間充滿了絕望與無奈，她自揭瘡疤，指自己學歷只有基礎文憑…",
+          "digest": "一位31歲的本港人妻在Threads發帖引發網民關注，帖文字裡行間充滿了絕望與無奈…",
+          "section": "其他",
+          "category": "",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T12:00:00+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c10bf090bf1",
+          "title": "Apple services, including iCloud, App Store, hit by outage",
+          "url": "https://news.tvb.com/tc/1207010-AppleservicesincludingiCloudAppStorehitbyoutage",
+          "summary": "After a recent slew of outages and flight disruptions this week…",
+          "summary_short": "After a recent slew of outages and flight disruptions this w…",
+          "digest": "After a recent slew of outages and flight…",
+          "section": "其他",
+          "category": "News",
+          "source": "tvb",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T11:59:00+08:00",
+          "size": 1,
+          "keywords": [
+            "Apple",
+            "Apple Store",
+            "Apple Watch",
+            "Apple Pay",
+            "Apple Music",
+            "Apple TV"
+          ],
+          "image": "https://pro-img-cdn.tvb.com/uploads/image/2026/11/2026aZf8hJI5RM1794967014.jpg?x-oss-process=image/resize,w_1200",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c7fc54cbb0f",
+          "title": "大连市上线统一战线特色宣传阵地电子地图",
+          "url": "https://www.chinanews.com.cn/txy/2026/11-18/10733947.shtml",
+          "summary": "为持续深化统战宣传工作，盘活用好全市统战资源，大连市委统战部整合归集全市统战特色宣传阵地，制作上线统战特色宣传阵地电子地图。",
+          "summary_short": "为持续深化统战宣传工作，盘活用好全市统战资源，大连市委统战部整合归集全市统战特色宣传阵地…",
+          "digest": "为持续深化统战宣传工作，盘活用好全市统战资源…",
+          "section": "其他",
+          "category": "",
+          "source": "chinanews",
+          "source_display": "中國新聞網",
+          "published_at": "2026-11-18T11:51:51+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hans"
+        },
+        {
+          "id": "cc8d161de06",
+          "title": "台積電｜4.6萬員工資料外洩遭索價3枚BTC 黑客狂言下個狙擊AMD",
+          "url": "https://www.stheadline.com/china-taiwan/3638394/台積電46萬員工資料外洩遭索價3枚BTC-黑客狂言下個狙擊AMD",
+          "summary": "全球最大晶片代工商台積電（TSMC）近日證實，公司近4.6萬名現職及離職員工的資料未經授權遭公開至外部網站。",
+          "summary_short": "全球最大晶片代工商台積電（TSMC）近日證實，公司近4.6萬名現職及離職員工的資料未經授權遭公開至外部網站。",
+          "digest": "全球最大晶片代工商台積電近日證實…",
+          "section": "其他",
+          "category": "",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:37:43+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "cd52c131934",
+          "title": "大埔酒樓早茶優惠！震撼價$1點心 蝦餃／燒賣／粉果日日轉款",
+          "url": "https://www.stheadline.com/food/3638392/大埔酒樓早茶優惠震撼價1點心蝦餃燒賣粉果日日轉款",
+          "summary": "飲早茶是香港人獨有的飲食文化，尋找一間性價比高的茶樓更是每天早上的指定動作。",
+          "summary_short": "飲早茶是香港人獨有的飲食文化，尋找一間性價比高的茶樓更是每天早上的指定動作。",
+          "digest": "飲早茶是香港人獨有的飲食文化，尋找一間性價比高的茶樓更是每天早上的指定動作",
+          "section": "其他",
+          "category": "",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T11:20:20+08:00",
+          "size": 1,
+          "keywords": [],
+          "image": "",
+          "lang": "zh-Hant"
+        },
+        {
+          "id": "c5250f76aaf",
+          "title": "屯門輕鐵站爆衝突！背心阿伯起腳大嗌「飛鷹踢」 反遭光頭阿伯推跌",
+          "url": "https://news.tvb.com/tc/1207001-屯門輕鐵站爆衝突背心阿伯起腳大嗌飛鷹踢反遭光頭阿伯推跌",
+          "summary": "網上流傳一段約半分鐘短片，直擊屯門輕鐵新圍站月台發生肢體衝突，兩名大叔在列車停站、車門打開期間於車門對開位置爆發爭執，更在眾目睽睽下大打出手。事發時，身穿格仔襯衫、深灰色背心及牛仔褲的男子，率先起腳踢向一名黑衣黑褲、手持大型黑色手提袋的光頭男子，出招之際更同時大喊一聲疑似「飛鷹踢！",
+          "summary_short": "網上流傳一段約半分鐘短片，直擊屯門輕鐵新圍站月台發生肢體衝突，兩名大叔在列車停站、車門打開期間於車門對開位置爆發爭執…",
+          "digest": "網上流傳一段約半分鐘短片，直擊屯門輕鐵新圍站月台發生肢體衝突，兩名大叔在列車停站…",
+          "section": "其他",
+          "category": "熱話",
+          "source": "tvb",
+          "source_display": "无綫新闻 TVB News",
+          "published_at": "2026-11-18T11:15:00+08:00",
+          "size": 1,
+          "keywords": [
+            "屯門",
+            "輕鐵",
+            "網絡熱話",
+            "熱話",
+            "網上熱話"
+          ],
+          "image": "https://pro-img-cdn.tvb.com/uploads/image/2026/11/2026akBbM3pUX31794971787.jpeg?x-oss-process=image/resize,w_1200",
+          "lang": "zh-Hant"
+        },
+        {
           "id": "c30622ee779",
           "title": "車Cam直擊丨輪椅男闖啟德隧道逆線行駛 61歲男稱迷路誤入",
           "url": "https://news.tvb.com/tc/1207000-車Cam直擊丨輪椅男闖啟德隧道逆線行駛61歲男稱迷路誤入",
@@ -981,32 +1598,32 @@
           "lang": "zh-Hant"
         },
         {
-          "id": "c9cb67de366",
-          "title": "車Cam直擊丨美孚紅的無視斑馬線行人 險「隊完一個又一個」 網民怒轟唔好放過佢！",
-          "url": "https://news.tvb.com/tc/1206876-車Cam直擊丨美孚紅的無視斑馬線行人險隊完一個又一個網民怒轟唔好放過佢",
-          "summary": "網上流傳一段車Cam影片，拍下昨日（16日）早上約8時半在美孚新邨發生的一宗驚險事件，從畫面可見，有一名男途人正由左至右橫過斑馬線，詎料對面線一輛紅色的士駛至時卻未有停車禮讓…",
-          "summary_short": "網上流傳一段車Cam影片，拍下昨日（16日）早上約8時半在美孚新邨發生的一宗驚險事件，從畫面可見…",
-          "digest": "網上流傳一段車Cam影片，拍下早上約8時半在美孚新邨發生的一宗驚險事件，從畫面可見…",
+          "id": "cb83e1b180e",
+          "title": "現貨金價失守3800美元 去年9月以來首次 受累聯儲局收緊政策預期",
+          "url": "https://www.stheadline.com/macroeconomics/3638374/現貨金價失守3800美元-去年9月以來首次-受累聯儲局收緊政策預期",
+          "summary": "隨着油價持續高企，市場對美國聯儲局12月加息預期升溫，現貨金價失守3,800美元關口，為去年9月30日以來首次，並一度低見3,792.12美元；暫報約3,795美元，跌約1.4%。",
+          "summary_short": "隨着油價持續高企，市場對美國聯儲局12月加息預期升溫，現貨金價失守3,800美元關口，為去年9月30日以來首次…",
+          "digest": "隨着油價持續高企，市場對美國聯儲局12月加息預期升溫，現貨金價失守3,800美元關口…",
           "section": "其他",
-          "category": "熱話",
-          "source": "tvb",
-          "source_display": "无綫新闻 TVB News",
-          "published_at": "2026-11-18T10:10+08:00",
+          "category": "",
+          "source": "stheadline",
+          "source_display": "星島頭條",
+          "published_at": "2026-11-18T10:27:35+08:00",
           "size": 1,
           "keywords": [],
-          "image": "https://pro-vod-cdn.tvb.com/0c6ca16ec68b4ad09fe35f31e2411087/snapshots/bcca40d88c264a18bc0e0889ff39b128-00002.jpg",
+          "image": "",
           "lang": "zh-Hant"
         }
       ]
     }
   ],
   "stats": {
-    "articles": 60,
-    "clusters": 53,
-    "merged": 7
+    "articles": 195,
+    "clusters": 173,
+    "merged": 22
   },
   "trending": {
-    "generated_at": "2026-11-18T05:02:59+00:00",
+    "generated_at": "2026-11-18T05:05:52+00:00",
     "boards": [
       {
         "key": "weibo",
@@ -1016,7 +1633,7 @@
           {
             "rank": 1,
             "title": "APEC",
-            "heat": 1158026,
+            "heat": 1148466,
             "label": "沸",
             "url": "https://s.weibo.com/weibo?q=%23APEC%23",
             "meta": ""
@@ -1024,7 +1641,7 @@
           {
             "rank": 2,
             "title": "深圳机场成了APEC随行团打卡点",
-            "heat": 864581,
+            "heat": 831586,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E6%88%90%E4%BA%86APEC%E9%9A%8F%E8%A1%8C%E5%9B%A2%E6%89%93%E5%8D%A1%E7%82%B9%23",
             "meta": ""
@@ -1032,7 +1649,7 @@
           {
             "rank": 3,
             "title": "APEC中国年这些知识点不容错过",
-            "heat": 678552,
+            "heat": 687371,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23APEC%E4%B8%AD%E5%9B%BD%E5%B9%B4%E8%BF%99%E4%BA%9B%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8D%E5%AE%B9%E9%94%99%E8%BF%87%23",
             "meta": ""
@@ -1040,7 +1657,7 @@
           {
             "rank": 4,
             "title": "王传福王兴雷军绝密群聊",
-            "heat": 659502,
+            "heat": 680115,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BC%A0%E7%A6%8F%E7%8E%8B%E5%85%B4%E9%9B%B7%E5%86%9B%E7%BB%9D%E5%AF%86%E7%BE%A4%E8%81%8A%23",
             "meta": ""
@@ -1048,7 +1665,7 @@
           {
             "rank": 5,
             "title": "宝珠",
-            "heat": 470069,
+            "heat": 439692,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E5%AE%9D%E7%8F%A0%23",
             "meta": ""
@@ -1056,7 +1673,7 @@
           {
             "rank": 6,
             "title": "BLG直播",
-            "heat": 423829,
+            "heat": 433240,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23BLG%E7%9B%B4%E6%92%AD%23",
             "meta": ""
@@ -1064,31 +1681,31 @@
           {
             "rank": 7,
             "title": "APEC里的深圳企业有多能打",
-            "heat": 423334,
+            "heat": 431364,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23APEC%E9%87%8C%E7%9A%84%E6%B7%B1%E5%9C%B3%E4%BC%81%E4%B8%9A%E6%9C%89%E5%A4%9A%E8%83%BD%E6%89%93%23",
             "meta": ""
           },
           {
             "rank": 8,
-            "title": "文莱领导人握手中方安保1秒摘手套",
-            "heat": 421847,
-            "label": "新",
-            "url": "https://s.weibo.com/weibo?q=%23%E6%96%87%E8%8E%B1%E9%A2%86%E5%AF%BC%E4%BA%BA%E6%8F%A1%E6%89%8B%E4%B8%AD%E6%96%B9%E5%AE%89%E4%BF%9D1%E7%A7%92%E6%91%98%E6%89%8B%E5%A5%97%23",
-            "meta": ""
-          },
-          {
-            "rank": 9,
             "title": "王楚钦孙颖莎总决赛混双外卡",
-            "heat": 417475,
+            "heat": 425735,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%AD%99%E9%A2%96%E8%8E%8E%E6%80%BB%E5%86%B3%E8%B5%9B%E6%B7%B7%E5%8F%8C%E5%A4%96%E5%8D%A1%23",
             "meta": ""
           },
           {
+            "rank": 9,
+            "title": "文莱领导人握手中方安保1秒摘手套",
+            "heat": 414576,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E6%96%87%E8%8E%B1%E9%A2%86%E5%AF%BC%E4%BA%BA%E6%8F%A1%E6%89%8B%E4%B8%AD%E6%96%B9%E5%AE%89%E4%BF%9D1%E7%A7%92%E6%91%98%E6%89%8B%E5%A5%97%23",
+            "meta": ""
+          },
+          {
             "rank": 10,
             "title": "峨眉山来了群女弟子",
-            "heat": 405465,
+            "heat": 406913,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E5%B3%A8%E7%9C%89%E5%B1%B1%E6%9D%A5%E4%BA%86%E7%BE%A4%E5%A5%B3%E5%BC%9F%E5%AD%90%23",
             "meta": ""
@@ -1096,7 +1713,7 @@
           {
             "rank": 11,
             "title": "深圳人全妆出街迎APEC",
-            "heat": 396201,
+            "heat": 387636,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E4%BA%BA%E5%85%A8%E5%A6%86%E5%87%BA%E8%A1%97%E8%BF%8EAPEC%23",
             "meta": ""
@@ -1104,7 +1721,7 @@
           {
             "rank": 12,
             "title": "陆毅女儿贝儿正式出道",
-            "heat": 394761,
+            "heat": 386460,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E9%99%86%E6%AF%85%E5%A5%B3%E5%84%BF%E8%B4%9D%E5%84%BF%E6%AD%A3%E5%BC%8F%E5%87%BA%E9%81%93%23",
             "meta": ""
@@ -1112,7 +1729,7 @@
           {
             "rank": 13,
             "title": "游客曝1600的烤全羊剥不出1两肉",
-            "heat": 385605,
+            "heat": 383305,
             "label": "热",
             "url": "https://s.weibo.com/weibo?q=%23%E6%B8%B8%E5%AE%A2%E6%9B%9D1600%E7%9A%84%E7%83%A4%E5%85%A8%E7%BE%8A%E5%89%A5%E4%B8%8D%E5%87%BA1%E4%B8%A4%E8%82%89%23",
             "meta": ""
@@ -1120,47 +1737,47 @@
           {
             "rank": 14,
             "title": "内娱下星二代了",
-            "heat": 375786,
+            "heat": 379890,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E5%86%85%E5%A8%B1%E4%B8%8B%E6%98%9F%E4%BA%8C%E4%BB%A3%E4%BA%86%23",
             "meta": ""
           },
           {
             "rank": 15,
-            "title": "黄金",
-            "heat": 370970,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%23",
-            "meta": ""
-          },
-          {
-            "rank": 16,
             "title": "高市早苗向中方代表打招呼姿态引热议",
-            "heat": 362064,
+            "heat": 376175,
             "label": "热",
             "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%90%91%E4%B8%AD%E6%96%B9%E4%BB%A3%E8%A1%A8%E6%89%93%E6%8B%9B%E5%91%BC%E5%A7%BF%E6%80%81%E5%BC%95%E7%83%AD%E8%AE%AE%23",
             "meta": ""
           },
           {
+            "rank": 16,
+            "title": "黄金",
+            "heat": 371272,
+            "label": "",
+            "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%23",
+            "meta": ""
+          },
+          {
             "rank": 17,
             "title": "黄晓明杨颖都看了BIGBANG演唱会",
-            "heat": 355063,
+            "heat": 365390,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E6%99%93%E6%98%8E%E6%9D%A8%E9%A2%96%E9%83%BD%E7%9C%8B%E4%BA%86BIGBANG%E6%BC%94%E5%94%B1%E4%BC%9A%23",
             "meta": ""
           },
           {
             "rank": 18,
-            "title": "郑恺女儿英文水平超过不少大学生了",
-            "heat": 347108,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E6%81%BA%E5%A5%B3%E5%84%BF%E8%8B%B1%E6%96%87%E6%B0%B4%E5%B9%B3%E8%B6%85%E8%BF%87%E4%B8%8D%E5%B0%91%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%BA%86%23",
+            "title": "冯薪朵钟正未婚先孕",
+            "heat": 361569,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E8%96%AA%E6%9C%B5%E9%92%9F%E6%AD%A3%E6%9C%AA%E5%A9%9A%E5%85%88%E5%AD%95%23",
             "meta": ""
           },
           {
             "rank": 19,
             "title": "蔚来高管回应爸爸我爱你违规",
-            "heat": 339634,
+            "heat": 359616,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E8%94%9A%E6%9D%A5%E9%AB%98%E7%AE%A1%E5%9B%9E%E5%BA%94%E7%88%B8%E7%88%B8%E6%88%91%E7%88%B1%E4%BD%A0%E8%BF%9D%E8%A7%84%23",
             "meta": ""
@@ -1168,7 +1785,7 @@
           {
             "rank": 20,
             "title": "APEC合影",
-            "heat": 335628,
+            "heat": 354055,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23APEC%E5%90%88%E5%BD%B1%23",
             "meta": ""
@@ -1176,79 +1793,79 @@
           {
             "rank": 21,
             "title": "江南 拒绝芒果",
-            "heat": 335179,
+            "heat": 349544,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E6%B1%9F%E5%8D%97%20%E6%8B%92%E7%BB%9D%E8%8A%92%E6%9E%9C%23",
             "meta": ""
           },
           {
             "rank": 22,
-            "title": "冯薪朵钟正未婚先孕",
-            "heat": 331742,
-            "label": "新",
-            "url": "https://s.weibo.com/weibo?q=%23%E5%86%AF%E8%96%AA%E6%9C%B5%E9%92%9F%E6%AD%A3%E6%9C%AA%E5%A9%9A%E5%85%88%E5%AD%95%23",
-            "meta": ""
-          },
-          {
-            "rank": 23,
             "title": "难怪郑恺高考成绩可以上复旦",
-            "heat": 330266,
+            "heat": 348026,
             "label": "热",
             "url": "https://s.weibo.com/weibo?q=%23%E9%9A%BE%E6%80%AA%E9%83%91%E6%81%BA%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9%E5%8F%AF%E4%BB%A5%E4%B8%8A%E5%A4%8D%E6%97%A6%23",
             "meta": ""
           },
           {
-            "rank": 24,
+            "rank": 23,
             "title": "WTT",
-            "heat": 329310,
+            "heat": 343134,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23WTT%23",
             "meta": ""
           },
           {
-            "rank": 25,
+            "rank": 24,
             "title": "百沐娱乐旗下艺人",
-            "heat": 327428,
+            "heat": 341851,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E7%99%BE%E6%B2%90%E5%A8%B1%E4%B9%90%E6%97%97%E4%B8%8B%E8%89%BA%E4%BA%BA%23",
             "meta": ""
           },
           {
-            "rank": 26,
-            "title": "王力宏的非凡就是不烦",
-            "heat": 289783,
-            "label": "新",
-            "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%8A%9B%E5%AE%8F%E7%9A%84%E9%9D%9E%E5%87%A1%E5%B0%B1%E6%98%AF%E4%B8%8D%E7%83%A6%23",
-            "meta": ""
-          },
-          {
-            "rank": 27,
-            "title": "曝Doran拒绝T1制作告别短片",
-            "heat": 286181,
-            "label": "新",
-            "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9DDoran%E6%8B%92%E7%BB%9DT1%E5%88%B6%E4%BD%9C%E5%91%8A%E5%88%AB%E7%9F%AD%E7%89%87%23",
-            "meta": ""
-          },
-          {
-            "rank": 28,
-            "title": "Canyon决赛不清楚怎么帮边线",
-            "heat": 284352,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23Canyon%E5%86%B3%E8%B5%9B%E4%B8%8D%E6%B8%85%E6%A5%9A%E6%80%8E%E4%B9%88%E5%B8%AE%E8%BE%B9%E7%BA%BF%23",
-            "meta": ""
-          },
-          {
-            "rank": 29,
+            "rank": 25,
             "title": "容错率大到你难以想象",
-            "heat": 276361,
+            "heat": 284196,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B9%E9%94%99%E7%8E%87%E5%A4%A7%E5%88%B0%E4%BD%A0%E9%9A%BE%E4%BB%A5%E6%83%B3%E8%B1%A1%23",
             "meta": ""
           },
           {
+            "rank": 26,
+            "title": "曝Doran拒绝T1制作告别短片",
+            "heat": 276972,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9DDoran%E6%8B%92%E7%BB%9DT1%E5%88%B6%E4%BD%9C%E5%91%8A%E5%88%AB%E7%9F%AD%E7%89%87%23",
+            "meta": ""
+          },
+          {
+            "rank": 27,
+            "title": "王力宏的非凡就是不烦",
+            "heat": 276690,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%8A%9B%E5%AE%8F%E7%9A%84%E9%9D%9E%E5%87%A1%E5%B0%B1%E6%98%AF%E4%B8%8D%E7%83%A6%23",
+            "meta": ""
+          },
+          {
+            "rank": 28,
+            "title": "郑恺女儿英文水平超过不少大学生了",
+            "heat": 276674,
+            "label": "",
+            "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E6%81%BA%E5%A5%B3%E5%84%BF%E8%8B%B1%E6%96%87%E6%B0%B4%E5%B9%B3%E8%B6%85%E8%BF%87%E4%B8%8D%E5%B0%91%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%BA%86%23",
+            "meta": ""
+          },
+          {
+            "rank": 29,
+            "title": "Canyon决赛不清楚怎么帮边线",
+            "heat": 276455,
+            "label": "",
+            "url": "https://s.weibo.com/weibo?q=%23Canyon%E5%86%B3%E8%B5%9B%E4%B8%8D%E6%B8%85%E6%A5%9A%E6%80%8E%E4%B9%88%E5%B8%AE%E8%BE%B9%E7%BA%BF%23",
+            "meta": ""
+          },
+          {
             "rank": 30,
             "title": "庞颖说许飞是个每天读童话的屠夫",
-            "heat": 265713,
+            "heat": 268785,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E5%BA%9E%E9%A2%96%E8%AF%B4%E8%AE%B8%E9%A3%9E%E6%98%AF%E4%B8%AA%E6%AF%8F%E5%A4%A9%E8%AF%BB%E7%AB%A5%E8%AF%9D%E7%9A%84%E5%B1%A0%E5%A4%AB%23",
             "meta": ""
@@ -1256,7 +1873,7 @@
           {
             "rank": 31,
             "title": "杨瀚森 开拓者",
-            "heat": 261686,
+            "heat": 251308,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%80%9A%E6%A3%AE%20%E5%BC%80%E6%8B%93%E8%80%85%23",
             "meta": ""
@@ -1264,153 +1881,153 @@
           {
             "rank": 32,
             "title": "刘涛秦岚虞书欣金晨蔡文静自拍",
-            "heat": 261653,
+            "heat": 248694,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E6%B6%9B%E7%A7%A6%E5%B2%9A%E8%99%9E%E4%B9%A6%E6%AC%A3%E9%87%91%E6%99%A8%E8%94%A1%E6%96%87%E9%9D%99%E8%87%AA%E6%8B%8D%23",
             "meta": ""
           },
           {
             "rank": 33,
+            "title": "大四女生失联母亲住酒店寻人4个多月",
+            "heat": 245104,
+            "label": "",
+            "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%9B%9B%E5%A5%B3%E7%94%9F%E5%A4%B1%E8%81%94%E6%AF%8D%E4%BA%B2%E4%BD%8F%E9%85%92%E5%BA%97%E5%AF%BB%E4%BA%BA4%E4%B8%AA%E5%A4%9A%E6%9C%88%23",
+            "meta": ""
+          },
+          {
+            "rank": 34,
             "title": "两京十五日",
-            "heat": 261140,
+            "heat": 243680,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%23",
             "meta": ""
           },
           {
-            "rank": 34,
+            "rank": 35,
             "title": "Tim吐槽苹果homeview",
-            "heat": 251297,
+            "heat": 238512,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23Tim%E5%90%90%E6%A7%BD%E8%8B%B9%E6%9E%9Chomeview%23",
             "meta": ""
           },
           {
-            "rank": 35,
-            "title": "李在明夫妇向中方迎宾人员鼓掌致意",
-            "heat": 233220,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%A4%AB%E5%A6%87%E5%90%91%E4%B8%AD%E6%96%B9%E8%BF%8E%E5%AE%BE%E4%BA%BA%E5%91%98%E9%BC%93%E6%8E%8C%E8%87%B4%E6%84%8F%23",
-            "meta": ""
-          },
-          {
             "rank": 36,
             "title": "韩路回应被Tim超越",
-            "heat": 224301,
+            "heat": 218637,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E8%B7%AF%E5%9B%9E%E5%BA%94%E8%A2%ABTim%E8%B6%85%E8%B6%8A%23",
             "meta": ""
           },
           {
             "rank": 37,
+            "title": "李在明夫妇向中方迎宾人员鼓掌致意",
+            "heat": 216921,
+            "label": "",
+            "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%A4%AB%E5%A6%87%E5%90%91%E4%B8%AD%E6%96%B9%E8%BF%8E%E5%AE%BE%E4%BA%BA%E5%91%98%E9%BC%93%E6%8E%8C%E8%87%B4%E6%84%8F%23",
+            "meta": ""
+          },
+          {
+            "rank": 38,
             "title": "供应商快被车企拖死了",
-            "heat": 217948,
+            "heat": 215084,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E4%BE%9B%E5%BA%94%E5%95%86%E5%BF%AB%E8%A2%AB%E8%BD%A6%E4%BC%81%E6%8B%96%E6%AD%BB%E4%BA%86%23",
             "meta": ""
           },
           {
-            "rank": 38,
+            "rank": 39,
             "title": "怪不得许飞爆了一个月还是0商务",
-            "heat": 216806,
+            "heat": 211026,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E6%80%AA%E4%B8%8D%E5%BE%97%E8%AE%B8%E9%A3%9E%E7%88%86%E4%BA%86%E4%B8%80%E4%B8%AA%E6%9C%88%E8%BF%98%E6%98%AF0%E5%95%86%E5%8A%A1%23",
             "meta": ""
           },
           {
-            "rank": 39,
-            "title": "中方支持成立世界湾区经济合作联盟",
-            "heat": 212466,
-            "label": "新",
-            "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E6%94%AF%E6%8C%81%E6%88%90%E7%AB%8B%E4%B8%96%E7%95%8C%E6%B9%BE%E5%8C%BA%E7%BB%8F%E6%B5%8E%E5%90%88%E4%BD%9C%E8%81%94%E7%9B%9F%23",
-            "meta": ""
-          },
-          {
             "rank": 40,
-            "title": "大四女生失联母亲住酒店寻人4个多月",
-            "heat": 211618,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%9B%9B%E5%A5%B3%E7%94%9F%E5%A4%B1%E8%81%94%E6%AF%8D%E4%BA%B2%E4%BD%8F%E9%85%92%E5%BA%97%E5%AF%BB%E4%BA%BA4%E4%B8%AA%E5%A4%9A%E6%9C%88%23",
-            "meta": ""
-          },
-          {
-            "rank": 41,
-            "title": "香港名媛蔡天凤案邝球首次出庭",
-            "heat": 211243,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E5%90%8D%E5%AA%9B%E8%94%A1%E5%A4%A9%E5%87%A4%E6%A1%88%E9%82%9D%E7%90%83%E9%A6%96%E6%AC%A1%E5%87%BA%E5%BA%AD%23",
-            "meta": ""
-          },
-          {
-            "rank": 42,
-            "title": "129万一针抗癌药进医保",
-            "heat": 211239,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23129%E4%B8%87%E4%B8%80%E9%92%88%E6%8A%97%E7%99%8C%E8%8D%AF%E8%BF%9B%E5%8C%BB%E4%BF%9D%23",
-            "meta": ""
-          },
-          {
-            "rank": 43,
             "title": "终于轮到九零后被叫大爷了",
-            "heat": 210374,
+            "heat": 203852,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E7%BB%88%E4%BA%8E%E8%BD%AE%E5%88%B0%E4%B9%9D%E9%9B%B6%E5%90%8E%E8%A2%AB%E5%8F%AB%E5%A4%A7%E7%88%B7%E4%BA%86%23",
             "meta": ""
           },
           {
-            "rank": 44,
+            "rank": 41,
             "title": "普京罕见没有提黑色手提箱保镖贴身随行",
-            "heat": 197387,
+            "heat": 193811,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E7%BD%95%E8%A7%81%E6%B2%A1%E6%9C%89%E6%8F%90%E9%BB%91%E8%89%B2%E6%89%8B%E6%8F%90%E7%AE%B1%E4%BF%9D%E9%95%96%E8%B4%B4%E8%BA%AB%E9%9A%8F%E8%A1%8C%23",
             "meta": ""
           },
           {
-            "rank": 45,
+            "rank": 42,
+            "title": "安妮海瑟薇三胎",
+            "heat": 188402,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E5%AE%89%E5%A6%AE%E6%B5%B7%E7%91%9F%E8%96%87%E4%B8%89%E8%83%8E%23",
+            "meta": ""
+          },
+          {
+            "rank": 43,
+            "title": "香港名媛蔡天凤案邝球首次出庭",
+            "heat": 187419,
+            "label": "",
+            "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E5%90%8D%E5%AA%9B%E8%94%A1%E5%A4%A9%E5%87%A4%E6%A1%88%E9%82%9D%E7%90%83%E9%A6%96%E6%AC%A1%E5%87%BA%E5%BA%AD%23",
+            "meta": ""
+          },
+          {
+            "rank": 44,
             "title": "韩网热议海外韩剧粉爬墙中剧",
-            "heat": 188199,
+            "heat": 186531,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BD%91%E7%83%AD%E8%AE%AE%E6%B5%B7%E5%A4%96%E9%9F%A9%E5%89%A7%E7%B2%89%E7%88%AC%E5%A2%99%E4%B8%AD%E5%89%A7%23",
             "meta": ""
           },
           {
+            "rank": 45,
+            "title": "129万一针抗癌药进医保",
+            "heat": 179543,
+            "label": "",
+            "url": "https://s.weibo.com/weibo?q=%23129%E4%B8%87%E4%B8%80%E9%92%88%E6%8A%97%E7%99%8C%E8%8D%AF%E8%BF%9B%E5%8C%BB%E4%BF%9D%23",
+            "meta": ""
+          },
+          {
             "rank": 46,
+            "title": "国台办评罗大佑批民进党当局言论",
+            "heat": 175424,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%8F%B0%E5%8A%9E%E8%AF%84%E7%BD%97%E5%A4%A7%E4%BD%91%E6%89%B9%E6%B0%91%E8%BF%9B%E5%85%9A%E5%BD%93%E5%B1%80%E8%A8%80%E8%AE%BA%23",
+            "meta": ""
+          },
+          {
+            "rank": 47,
+            "title": "陆毅贝儿口碑",
+            "heat": 172958,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E9%99%86%E6%AF%85%E8%B4%9D%E5%84%BF%E5%8F%A3%E7%A2%91%23",
+            "meta": ""
+          },
+          {
+            "rank": 48,
             "title": "盒马仅退款400次女子认罪认罚",
-            "heat": 175274,
+            "heat": 168586,
             "label": "新",
             "url": "https://s.weibo.com/weibo?q=%23%E7%9B%92%E9%A9%AC%E4%BB%85%E9%80%80%E6%AC%BE400%E6%AC%A1%E5%A5%B3%E5%AD%90%E8%AE%A4%E7%BD%AA%E8%AE%A4%E7%BD%9A%23",
             "meta": ""
           },
           {
-            "rank": 47,
-            "title": "奶茶店推出半米高超长杯奶茶",
-            "heat": 172538,
-            "label": "新",
-            "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B6%E8%8C%B6%E5%BA%97%E6%8E%A8%E5%87%BA%E5%8D%8A%E7%B1%B3%E9%AB%98%E8%B6%85%E9%95%BF%E6%9D%AF%E5%A5%B6%E8%8C%B6%23",
-            "meta": ""
-          },
-          {
-            "rank": 48,
+            "rank": 49,
             "title": "41人没症状被AI查出早期肠癌",
-            "heat": 164783,
+            "heat": 165461,
             "label": "",
             "url": "https://s.weibo.com/weibo?q=%2341%E4%BA%BA%E6%B2%A1%E7%97%87%E7%8A%B6%E8%A2%ABAI%E6%9F%A5%E5%87%BA%E6%97%A9%E6%9C%9F%E8%82%A0%E7%99%8C%23",
             "meta": ""
           },
           {
-            "rank": 49,
-            "title": "金价一直下跌原因",
-            "heat": 162022,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E4%B8%80%E7%9B%B4%E4%B8%8B%E8%B7%8C%E5%8E%9F%E5%9B%A0%23",
-            "meta": ""
-          },
-          {
             "rank": 50,
-            "title": "董思成 升咖",
-            "heat": 151500,
-            "label": "",
-            "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E6%80%9D%E6%88%90%20%E5%8D%87%E5%92%96%23",
+            "title": "孙颖莎WTT混双总战绩",
+            "heat": 164219,
+            "label": "新",
+            "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8EWTT%E6%B7%B7%E5%8F%8C%E6%80%BB%E6%88%98%E7%BB%A9%23",
             "meta": ""
           }
         ]
@@ -1423,7 +2040,7 @@
           {
             "rank": 1,
             "title": "APEC工商领导人峰会开幕式",
-            "heat": 43799951,
+            "heat": 43492445,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=APEC%E5%B7%A5%E5%95%86%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%B3%B0%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F",
             "meta": ""
@@ -1431,7 +2048,7 @@
           {
             "rank": 2,
             "title": "APEC吸引外国友人华强北扫货",
-            "heat": 42834450,
+            "heat": 42679916,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=APEC%E5%90%B8%E5%BC%95%E5%A4%96%E5%9B%BD%E5%8F%8B%E4%BA%BA%E5%8D%8E%E5%BC%BA%E5%8C%97%E6%89%AB%E8%B4%A7",
             "meta": ""
@@ -1439,7 +2056,7 @@
           {
             "rank": 3,
             "title": "鸣潮新联邦角色首曝PV",
-            "heat": 40301759,
+            "heat": 40274511,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E9%B8%A3%E6%BD%AE%E6%96%B0%E8%81%94%E9%82%A6%E8%A7%92%E8%89%B2%E9%A6%96%E6%9B%9DPV",
             "meta": ""
@@ -1447,7 +2064,7 @@
           {
             "rank": 4,
             "title": "TGA2026全提名名单公布",
-            "heat": 5578599,
+            "heat": 5360475,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=TGA2026%E5%85%A8%E6%8F%90%E5%90%8D%E5%90%8D%E5%8D%95%E5%85%AC%E5%B8%83",
             "meta": ""
@@ -1470,16 +2087,16 @@
           },
           {
             "rank": 7,
-            "title": "国创发布会",
-            "heat": 468671,
+            "title": "欧国联 威尔士2-3葡萄牙",
+            "heat": 466556,
             "label": "",
-            "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E5%88%9B%E5%8F%91%E5%B8%83%E4%BC%9A",
+            "url": "https://search.bilibili.com/all?keyword=%E6%AC%A7%E5%9B%BD%E8%81%94%20%E5%A8%81%E5%B0%94%E5%A3%AB2-3%E8%91%A1%E8%90%84%E7%89%99",
             "meta": ""
           },
           {
             "rank": 8,
             "title": "Chovy获TGA最佳电竞选手提名",
-            "heat": 468545,
+            "heat": 466164,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=Chovy%E8%8E%B7TGA%E6%9C%80%E4%BD%B3%E7%94%B5%E7%AB%9E%E9%80%89%E6%89%8B%E6%8F%90%E5%90%8D",
             "meta": ""
@@ -1487,7 +2104,7 @@
           {
             "rank": 9,
             "title": "OpenAI新模型遭差评海啸",
-            "heat": 468273,
+            "heat": 464038,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=OpenAI%E6%96%B0%E6%A8%A1%E5%9E%8B%E9%81%AD%E5%B7%AE%E8%AF%84%E6%B5%B7%E5%95%B8",
             "meta": ""
@@ -1495,23 +2112,23 @@
           {
             "rank": 10,
             "title": "2万一张的S16门票体验如何",
-            "heat": 467963,
+            "heat": 463056,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=2%E4%B8%87%E4%B8%80%E5%BC%A0%E7%9A%84S16%E9%97%A8%E7%A5%A8%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95",
             "meta": ""
           },
           {
             "rank": 11,
-            "title": "欧国联 威尔士2-3葡萄牙",
-            "heat": 466557,
+            "title": "国创发布会",
+            "heat": 459412,
             "label": "",
-            "url": "https://search.bilibili.com/all?keyword=%E6%AC%A7%E5%9B%BD%E8%81%94%20%E5%A8%81%E5%B0%94%E5%A3%AB2-3%E8%91%A1%E8%90%84%E7%89%99",
+            "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E5%88%9B%E5%8F%91%E5%B8%83%E4%BC%9A",
             "meta": ""
           },
           {
             "rank": 12,
             "title": "非凡之爱蜘蛛侠真人版",
-            "heat": 466556,
+            "heat": 459411,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E9%9D%9E%E5%87%A1%E4%B9%8B%E7%88%B1%E8%9C%98%E8%9B%9B%E4%BE%A0%E7%9C%9F%E4%BA%BA%E7%89%88",
             "meta": ""
@@ -1519,7 +2136,7 @@
           {
             "rank": 13,
             "title": "阿根廷7-0哥斯达黎加",
-            "heat": 466554,
+            "heat": 459409,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E9%98%BF%E6%A0%B9%E5%BB%B77-0%E5%93%A5%E6%96%AF%E8%BE%BE%E9%BB%8E%E5%8A%A0",
             "meta": ""
@@ -1527,7 +2144,7 @@
           {
             "rank": 14,
             "title": "3A游戏行业会崩溃吗",
-            "heat": 466552,
+            "heat": 459408,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=3A%E6%B8%B8%E6%88%8F%E8%A1%8C%E4%B8%9A%E4%BC%9A%E5%B4%A9%E6%BA%83%E5%90%97",
             "meta": ""
@@ -1535,7 +2152,7 @@
           {
             "rank": 15,
             "title": "算了嘛警官盛嘉成版",
-            "heat": 466549,
+            "heat": 459408,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E7%AE%97%E4%BA%86%E5%98%9B%E8%AD%A6%E5%AE%98%E7%9B%9B%E5%98%89%E6%88%90%E7%89%88",
             "meta": ""
@@ -1543,7 +2160,7 @@
           {
             "rank": 16,
             "title": "塔克拉玛干沙漠惊现巨型千年胡杨",
-            "heat": 466524,
+            "heat": 459407,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E5%A1%94%E5%85%8B%E6%8B%89%E7%8E%9B%E5%B9%B2%E6%B2%99%E6%BC%A0%E6%83%8A%E7%8E%B0%E5%B7%A8%E5%9E%8B%E5%8D%83%E5%B9%B4%E8%83%A1%E6%9D%A8",
             "meta": ""
@@ -1551,7 +2168,7 @@
           {
             "rank": 17,
             "title": "如何避免太空垃圾变成宇宙暗器",
-            "heat": 466208,
+            "heat": 459356,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E5%A4%AA%E7%A9%BA%E5%9E%83%E5%9C%BE%E5%8F%98%E6%88%90%E5%AE%87%E5%AE%99%E6%9A%97%E5%99%A8",
             "meta": ""
@@ -1559,7 +2176,7 @@
           {
             "rank": 18,
             "title": "电影挽救计划为何口碑票房双爆",
-            "heat": 464839,
+            "heat": 458229,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E7%94%B5%E5%BD%B1%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92%E4%B8%BA%E4%BD%95%E5%8F%A3%E7%A2%91%E7%A5%A8%E6%88%BF%E5%8F%8C%E7%88%86",
             "meta": ""
@@ -1567,7 +2184,7 @@
           {
             "rank": 19,
             "title": "丹麦2-3挪威 哈兰德绝杀",
-            "heat": 459420,
+            "heat": 450946,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E4%B8%B9%E9%BA%A62-3%E6%8C%AA%E5%A8%81%20%E5%93%88%E5%85%B0%E5%BE%B7%E7%BB%9D%E6%9D%80",
             "meta": ""
@@ -1575,7 +2192,7 @@
           {
             "rank": 20,
             "title": "3分钟看懂APEC与你我的关系",
-            "heat": 427779,
+            "heat": 427711,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=3%E5%88%86%E9%92%9F%E7%9C%8B%E6%87%82APEC%E4%B8%8E%E4%BD%A0%E6%88%91%E7%9A%84%E5%85%B3%E7%B3%BB",
             "meta": ""
@@ -1583,7 +2200,7 @@
           {
             "rank": 21,
             "title": "王迅 看到BLG夺冠真的很开心",
-            "heat": 427747,
+            "heat": 427703,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%BF%85%20%E7%9C%8B%E5%88%B0BLG%E5%A4%BA%E5%86%A0%E7%9C%9F%E7%9A%84%E5%BE%88%E5%BC%80%E5%BF%83",
             "meta": ""
@@ -1591,7 +2208,7 @@
           {
             "rank": 22,
             "title": "老吃家才能懂的猪刨花拌面",
-            "heat": 427476,
+            "heat": 427687,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E8%80%81%E5%90%83%E5%AE%B6%E6%89%8D%E8%83%BD%E6%87%82%E7%9A%84%E7%8C%AA%E5%88%A8%E8%8A%B1%E6%8B%8C%E9%9D%A2",
             "meta": ""
@@ -1599,63 +2216,63 @@
           {
             "rank": 23,
             "title": "后会友期 谁在按剧本演戏",
-            "heat": 425072,
+            "heat": 427660,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%20%E8%B0%81%E5%9C%A8%E6%8C%89%E5%89%A7%E6%9C%AC%E6%BC%94%E6%88%8F",
             "meta": ""
           },
           {
             "rank": 24,
-            "title": "Anthropic上市前瞻",
-            "heat": 420034,
-            "label": "",
-            "url": "https://search.bilibili.com/all?keyword=Anthropic%E4%B8%8A%E5%B8%82%E5%89%8D%E7%9E%BB",
-            "meta": ""
-          },
-          {
-            "rank": 25,
-            "title": "BLG夺冠后Bin哭了",
-            "heat": 420033,
-            "label": "",
-            "url": "https://search.bilibili.com/all?keyword=BLG%E5%A4%BA%E5%86%A0%E5%90%8EBin%E5%93%AD%E4%BA%86",
-            "meta": ""
-          },
-          {
-            "rank": 26,
-            "title": "高燃BLG一穿四夺冠短片",
-            "heat": 420031,
-            "label": "",
-            "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E7%87%83BLG%E4%B8%80%E7%A9%BF%E5%9B%9B%E5%A4%BA%E5%86%A0%E7%9F%AD%E7%89%87",
-            "meta": ""
-          },
-          {
-            "rank": 27,
-            "title": "CS2通行证与音乐盒更新",
-            "heat": 420030,
-            "label": "",
-            "url": "https://search.bilibili.com/all?keyword=CS2%E9%80%9A%E8%A1%8C%E8%AF%81%E4%B8%8E%E9%9F%B3%E4%B9%90%E7%9B%92%E6%9B%B4%E6%96%B0",
-            "meta": ""
-          },
-          {
-            "rank": 28,
-            "title": "第一视角看Bin冠军格温有多强",
-            "heat": 420029,
-            "label": "",
-            "url": "https://search.bilibili.com/all?keyword=%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E7%9C%8BBin%E5%86%A0%E5%86%9B%E6%A0%BC%E6%B8%A9%E6%9C%89%E5%A4%9A%E5%BC%BA",
-            "meta": ""
-          },
-          {
-            "rank": 29,
             "title": "小鹿探秘GTA6罪恶之都取景地",
-            "heat": 420028,
+            "heat": 427518,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E5%B0%8F%E9%B9%BF%E6%8E%A2%E7%A7%98GTA6%E7%BD%AA%E6%81%B6%E4%B9%8B%E9%83%BD%E5%8F%96%E6%99%AF%E5%9C%B0",
             "meta": ""
           },
           {
+            "rank": 25,
+            "title": "Anthropic上市前瞻",
+            "heat": 420852,
+            "label": "",
+            "url": "https://search.bilibili.com/all?keyword=Anthropic%E4%B8%8A%E5%B8%82%E5%89%8D%E7%9E%BB",
+            "meta": ""
+          },
+          {
+            "rank": 26,
+            "title": "BLG夺冠后Bin哭了",
+            "heat": 420851,
+            "label": "",
+            "url": "https://search.bilibili.com/all?keyword=BLG%E5%A4%BA%E5%86%A0%E5%90%8EBin%E5%93%AD%E4%BA%86",
+            "meta": ""
+          },
+          {
+            "rank": 27,
+            "title": "高燃BLG一穿四夺冠短片",
+            "heat": 420849,
+            "label": "",
+            "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E7%87%83BLG%E4%B8%80%E7%A9%BF%E5%9B%9B%E5%A4%BA%E5%86%A0%E7%9F%AD%E7%89%87",
+            "meta": ""
+          },
+          {
+            "rank": 28,
+            "title": "CS2通行证与音乐盒更新",
+            "heat": 420848,
+            "label": "",
+            "url": "https://search.bilibili.com/all?keyword=CS2%E9%80%9A%E8%A1%8C%E8%AF%81%E4%B8%8E%E9%9F%B3%E4%B9%90%E7%9B%92%E6%9B%B4%E6%96%B0",
+            "meta": ""
+          },
+          {
+            "rank": 29,
+            "title": "第一视角看Bin冠军格温有多强",
+            "heat": 420847,
+            "label": "",
+            "url": "https://search.bilibili.com/all?keyword=%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E7%9C%8BBin%E5%86%A0%E5%86%9B%E6%A0%BC%E6%B8%A9%E6%9C%89%E5%A4%9A%E5%BC%BA",
+            "meta": ""
+          },
+          {
             "rank": 30,
             "title": "食贫道闯关东吃饭故事上新",
-            "heat": 420028,
+            "heat": 420846,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E9%A3%9F%E8%B4%AB%E9%81%93%E9%97%AF%E5%85%B3%E4%B8%9C%E5%90%83%E9%A5%AD%E6%95%85%E4%BA%8B%E4%B8%8A%E6%96%B0",
             "meta": ""
@@ -1663,7 +2280,7 @@
           {
             "rank": 31,
             "title": "万字复盘KPL年总决赛",
-            "heat": 420026,
+            "heat": 420841,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E4%B8%87%E5%AD%97%E5%A4%8D%E7%9B%98KPL%E5%B9%B4%E6%80%BB%E5%86%B3%E8%B5%9B",
             "meta": ""
@@ -1671,7 +2288,7 @@
           {
             "rank": 32,
             "title": "赛博朋克为何开始淡化深刻哲学",
-            "heat": 420022,
+            "heat": 420782,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B%E4%B8%BA%E4%BD%95%E5%BC%80%E5%A7%8B%E6%B7%A1%E5%8C%96%E6%B7%B1%E5%88%BB%E5%93%B2%E5%AD%A6",
             "meta": ""
@@ -1679,7 +2296,7 @@
           {
             "rank": 33,
             "title": "解说逐局回看BLG夺冠之路",
-            "heat": 420015,
+            "heat": 420689,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%B4%E9%80%90%E5%B1%80%E5%9B%9E%E7%9C%8BBLG%E5%A4%BA%E5%86%A0%E4%B9%8B%E8%B7%AF",
             "meta": ""
@@ -1719,7 +2336,7 @@
           {
             "rank": 38,
             "title": "韩网单曲 Chovy的根号4",
-            "heat": 384781,
+            "heat": 384395,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E9%9F%A9%E7%BD%91%E5%8D%95%E6%9B%B2%20Chovy%E7%9A%84%E6%A0%B9%E5%8F%B74",
             "meta": ""
@@ -1783,7 +2400,7 @@
           {
             "rank": 46,
             "title": "Doggo就介入Junjia感情致歉",
-            "heat": 346779,
+            "heat": 342347,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=Doggo%E5%B0%B1%E4%BB%8B%E5%85%A5Junjia%E6%84%9F%E6%83%85%E8%87%B4%E6%AD%89",
             "meta": ""
@@ -1791,31 +2408,31 @@
           {
             "rank": 47,
             "title": "白小纯青稚各有哪些痛点",
-            "heat": 341937,
+            "heat": 341648,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E7%99%BD%E5%B0%8F%E7%BA%AF%E9%9D%92%E7%A8%9A%E5%90%84%E6%9C%89%E5%93%AA%E4%BA%9B%E7%97%9B%E7%82%B9",
             "meta": ""
           },
           {
             "rank": 48,
-            "title": "天下足球回顾C罗国家队生涯",
-            "heat": 330420,
-            "label": "",
-            "url": "https://search.bilibili.com/all?keyword=%E5%A4%A9%E4%B8%8B%E8%B6%B3%E7%90%83%E5%9B%9E%E9%A1%BEC%E7%BD%97%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%94%9F%E6%B6%AF",
-            "meta": ""
-          },
-          {
-            "rank": 49,
             "title": "复联全家福vs灭霸全家福",
-            "heat": 310729,
+            "heat": 333141,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E5%A4%8D%E8%81%94%E5%85%A8%E5%AE%B6%E7%A6%8Fvs%E7%81%AD%E9%9C%B8%E5%85%A8%E5%AE%B6%E7%A6%8F",
             "meta": ""
           },
           {
+            "rank": 49,
+            "title": "天下足球回顾C罗国家队生涯",
+            "heat": 329965,
+            "label": "",
+            "url": "https://search.bilibili.com/all?keyword=%E5%A4%A9%E4%B8%8B%E8%B6%B3%E7%90%83%E5%9B%9E%E9%A1%BEC%E7%BD%97%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%94%9F%E6%B6%AF",
+            "meta": ""
+          },
+          {
             "rank": 50,
             "title": "曾经爆火的AI生图现状如何",
-            "heat": 304389,
+            "heat": 304044,
             "label": "",
             "url": "https://search.bilibili.com/all?keyword=%E6%9B%BE%E7%BB%8F%E7%88%86%E7%81%AB%E7%9A%84AI%E7%94%9F%E5%9B%BE%E7%8E%B0%E7%8A%B6%E5%A6%82%E4%BD%95",
             "meta": ""
@@ -1830,31 +2447,31 @@
           {
             "rank": 1,
             "title": "「幽明志」幽城残梦",
-            "heat": 597273,
+            "heat": 605485,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1YvsB6FER9",
-            "meta": "幽明志 · 59.7万播放"
+            "meta": "幽明志 · 60.5万播放"
           },
           {
             "rank": 2,
             "title": "钢铁侠给贾维斯装上病娇插件，这下玩大了",
-            "heat": 1247775,
+            "heat": 1248960,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1fDsu6xEyA",
-            "meta": "西伯利亚冬泳怪鸽 · 124.8万播放"
+            "meta": "西伯利亚冬泳怪鸽 · 124.9万播放"
           },
           {
             "rank": 3,
             "title": "【蜘蛛侠/MJ】非凡之爱真人版",
-            "heat": 2124255,
+            "heat": 2150241,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1xFs36uEvE",
-            "meta": "Crazy-face · 212.4万播放"
+            "meta": "Crazy-face · 215.0万播放"
           },
           {
             "rank": 4,
             "title": "【完结】财神窦占龙 第16集 归乡【8月国创】",
-            "heat": 449972,
+            "heat": 450077,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1ojWq68E1D",
             "meta": "哔哩哔哩国创 · 45.0万播放"
@@ -1862,119 +2479,119 @@
           {
             "rank": 5,
             "title": "“他们没有任何血缘关系，但却拥有同一个妈妈.”【Scared play sacred place】【治愈心灵の小曲】",
-            "heat": 2133502,
+            "heat": 2141616,
             "label": "",
             "url": "https://www.bilibili.com/video/BV12MsK6tEV1",
-            "meta": "早睡起大王 · 213.4万播放"
+            "meta": "早睡起大王 · 214.2万播放"
           },
           {
             "rank": 6,
             "title": "打工人开豪车上班，老板娘要来家访…",
-            "heat": 685551,
+            "heat": 687489,
             "label": "",
             "url": "https://www.bilibili.com/video/BV15osT6yEgQ",
-            "meta": "极速拍档 · 68.6万播放"
+            "meta": "极速拍档 · 68.7万播放"
           },
           {
             "rank": 7,
             "title": "梅耶·马斯克带你走进无限暖暖3.0",
-            "heat": 1893391,
+            "heat": 1894705,
             "label": "",
             "url": "https://www.bilibili.com/video/BV18msM6zEqc",
-            "meta": "无限暖暖 · 189.3万播放"
+            "meta": "无限暖暖 · 189.5万播放"
           },
           {
             "rank": 8,
             "title": "蚌埠住的时候就抽出七匹狼",
-            "heat": 1690740,
+            "heat": 1701556,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1jgsz6KEWP",
-            "meta": "凶鸭栗 · 169.1万播放"
+            "meta": "凶鸭栗 · 170.2万播放"
           },
           {
             "rank": 9,
             "title": "当我把男友的东西都换成大大的，他？？？？",
-            "heat": 715418,
+            "heat": 716191,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1QTsg6yEhe",
-            "meta": "每天都犯困鸭 · 71.5万播放"
+            "meta": "每天都犯困鸭 · 71.6万播放"
           },
           {
             "rank": 10,
             "title": "【纪录片】蓝色星球 第三季 03 四季海洋",
-            "heat": 603990,
+            "heat": 604544,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1dnWj6KEm8",
-            "meta": "哔哩哔哩纪录片 · 60.4万播放"
+            "meta": "哔哩哔哩纪录片 · 60.5万播放"
           },
           {
             "rank": 11,
             "title": "《最礼乐崩坏の一集》",
-            "heat": 2478955,
+            "heat": 2484025,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1b2sK6aEJ9",
-            "meta": "伤心欲茄222 · 247.9万播放"
+            "meta": "伤心欲茄222 · 248.4万播放"
           },
           {
             "rank": 12,
             "title": "《哈利波特与死亡火器》",
-            "heat": 2029303,
+            "heat": 2033802,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1v8sP6vEiq",
-            "meta": "推背兔の · 202.9万播放"
+            "meta": "推背兔の · 203.4万播放"
           },
           {
             "rank": 13,
             "title": "抽象新闻：11月人类迷惑行为大赏（中）",
-            "heat": 998487,
+            "heat": 1005995,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1uMsM6TEa5",
-            "meta": "我是M菌 · 99.8万播放"
+            "meta": "我是M菌 · 100.6万播放"
           },
           {
             "rank": 14,
             "title": "我们熟悉的那个3A游戏时代，可能真的结束了。【游戏之外】",
-            "heat": 872836,
+            "heat": 875083,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1cUsu6ZEYp",
-            "meta": "智能路障 · 87.3万播放"
+            "meta": "智能路障 · 87.5万播放"
           },
           {
             "rank": 15,
             "title": "【BLG冠军麦克风】这一刻，我们是世界冠军！",
-            "heat": 872321,
+            "heat": 875036,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1JNsr67EbT",
-            "meta": "BLG电子竞技俱乐部 · 87.2万播放"
+            "meta": "BLG电子竞技俱乐部 · 87.5万播放"
           },
           {
             "rank": 16,
             "title": "【CS2更新】熟悉的旋律加入CS2音乐盒~主菜单&MVP试听",
-            "heat": 247714,
+            "heat": 250147,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1besC6KE6N",
-            "meta": "AYCS2 · 24.8万播放"
+            "meta": "AYCS2 · 25.0万播放"
           },
           {
             "rank": 17,
             "title": "地表最强，绝对的数值，大象这个版本怎么样？",
-            "heat": 490317,
+            "heat": 491971,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1mPsP6pEez",
-            "meta": "黄土豆袋鼠 · 49.0万播放"
+            "meta": "黄土豆袋鼠 · 49.2万播放"
           },
           {
             "rank": 18,
             "title": "灭霸和复联一起玩求生之路毫不留情",
-            "heat": 349114,
+            "heat": 350910,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1Thsz6QEgd",
-            "meta": "冰素HL · 34.9万播放"
+            "meta": "冰素HL · 35.1万播放"
           },
           {
             "rank": 19,
             "title": "【守护解放西·传承季】总预告：守护第七年，我们再次出发！",
-            "heat": 370718,
+            "heat": 370993,
             "label": "",
             "url": "https://www.bilibili.com/video/BV1QmWi6JEE6",
             "meta": "哔哩哔哩纪录片 · 37.1万播放"
@@ -1982,10 +2599,10 @@
           {
             "rank": 20,
             "title": "我把Windows10装进了哔哩哔哩里,点击即玩!【B站AI创造公开赛】",
-            "heat": 849871,
+            "heat": 854269,
             "label": "",
             "url": "https://www.bilibili.com/video/BV18jsA6xEft",
-            "meta": "LING不道 · 85.0万播放"
+            "meta": "LING不道 · 85.4万播放"
           }
         ]
       }
