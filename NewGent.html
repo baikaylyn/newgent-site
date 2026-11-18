@@ -398,6 +398,54 @@
   .mod.on{ display:flex; }
   #mod-live, #mod-radio, #mod-settings{ flex-direction:column; overflow-y:auto; }
 
+  /* ============================================================
+     听新闻：底部朗读控制条
+     ============================================================ */
+  .listenbar{
+    display:none; flex-shrink:0; align-items:center; gap:10px;
+    padding:9px 14px; background:var(--bar); border-top:1px solid var(--line);
+    backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+  }
+  .listenbar.on{ display:flex; }
+  .listenbar .lb-txt{ flex:1; min-width:0; }
+  .listenbar .lb-k{
+    font-size:calc(9.5px * var(--fs)); font-weight:650; letter-spacing:.6px;
+    color:var(--accent); display:block; margin-bottom:2px;
+  }
+  .listenbar .lb-t{
+    display:block; font-size:calc(12px * var(--fs)); color:var(--t1); line-height:1.35;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+  .lbtn{
+    width:34px; height:34px; flex-shrink:0; border-radius:50%;
+    border:1px solid var(--line); background:transparent; color:var(--t2);
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+    transition:opacity .13s ease, background .13s ease;
+  }
+  .lbtn:hover{ opacity:.7; }
+  .lbtn svg{ width:14px; height:14px; }
+  .lbtn.main{ background:var(--btn-bg); color:var(--btn-fg); border-color:transparent; width:38px; height:38px; }
+  .lbtn.main svg{ width:15px; height:15px; }
+
+  /* 直播页里的「收听」入口 */
+  .listencard{
+    display:flex; align-items:center; gap:14px; width:100%; text-align:left;
+    padding:16px 18px; margin-bottom:18px; cursor:pointer;
+    border:1px solid var(--line); border-radius:14px; background:transparent;
+    font-family:var(--font);
+  }
+  html[data-theme="glass"] .listencard{ background:var(--card); border-color:var(--card-border); }
+  .listencard:hover{ opacity:.85; }
+  .listencard .lc-i{
+    width:42px; height:42px; flex-shrink:0; border-radius:50%;
+    background:var(--btn-bg); color:var(--btn-fg);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .listencard .lc-i svg{ width:16px; height:16px; }
+  .listencard .lc-t{ flex:1; min-width:0; }
+  .listencard .lc-t b{ display:block; font-size:calc(13.5px * var(--fs)); font-weight:650; color:var(--t1); }
+  .listencard .lc-t small{ display:block; margin-top:4px; font-size:calc(11px * var(--fs)); color:var(--t3); line-height:1.5; }
+
   .tabbar{
     height:56px; flex-shrink:0; display:flex; align-items:stretch;
     padding:0 4px env(safe-area-inset-bottom, 0px);
@@ -658,6 +706,24 @@
       <div class="wrap" id="settingsBody"></div>
     </section>
 
+  </div>
+
+  <!-- 听新闻：朗读控制条（不朗读时隐藏） -->
+  <div class="listenbar" id="listenBar">
+    <div class="lb-txt">
+      <span class="lb-k" id="lbKicker">收听</span>
+      <span class="lb-t" id="lbTitle"></span>
+    </div>
+    <button class="lbtn" id="lbPrev" title="上一条">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 5h2.4v14H7zM19 5v14l-8.6-7z"/></svg>
+    </button>
+    <button class="lbtn main" id="lbToggle" title="暂停 / 继续"></button>
+    <button class="lbtn" id="lbNext" title="下一条">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.6 5H17v14h-2.4zM5 5l8.6 7L5 19z"/></svg>
+    </button>
+    <button class="lbtn" id="lbClose" title="停止收听">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
   </div>
 
   <nav class="tabbar" id="tabbar">
@@ -6102,6 +6168,7 @@
     if(s.category) html += '<div class="kicker">' + esc(s.category) + '</div>';
     html += '<h1>' + esc(s.title) + '</h1>';
     html += '</div><div class="dactions">';
+    html += '<button class="act" data-listen="1" title="用系统语音朗读这一条">听新闻</button>';
     if(s.url){
       html += '<button class="act primary" data-url="' + esc(s.url) +
               '" title="在浏览器打开原文">看原文</button>';
@@ -6309,6 +6376,16 @@
     var list = (state.data && state.data.live) || [];
 
     var html = '<div class="mhead"><h2>直播</h2><span>' + list.length + ' 个频道</span></div>';
+
+    // 直播看不了画面时，用「听新闻」顶上：文字是我们的，不受 DRM 限制
+    html += '<button class="listencard" data-listen-all="1">' +
+              '<span class="lc-i"><svg viewBox="0 0 24 24" fill="currentColor">' +
+                '<path d="M8 5.2v13.6l11-6.8z"/></svg></span>' +
+              '<span class="lc-t"><b>收听今日要闻</b>' +
+                '<small>用系统语音把头条一条条念出来，念完自动下一条，到末尾绕回开头，' +
+                '像电台一样一直放着。手机可以先锁屏揣兜里听。</small></span>' +
+            '</button>';
+
     if(!list.length){
       html += '<div class="hint">暂无可用频道</div>';
     } else {
@@ -6421,6 +6498,8 @@
     var st = findStation(key);
     var audio = $("player");
     if(!st || !audio) return;
+    // 电台和朗读抢同一个音频通道，先停朗读
+    if(listen.on) stopListen();
 
     // 再点同一台 = 暂停 / 继续
     if(state.radio.key === key && audio.dataset.station === key){
@@ -6537,6 +6616,234 @@
   }
 
   // ---------------------------------------------------------------
+  // 听新闻（系统语音朗读）
+  //
+  // TVB 的直播流带 DRM，音频轨也取不出来，所以「不看画面只听新闻」
+  // 走另一条路：把已经收进库里的标题 + 一句话摘要用系统语音念出来，
+  // 一条读完自动下一条，像电台一样连着听。纯前端，不联网、不花钱。
+  // ---------------------------------------------------------------
+  var TTS_LANG_KEY = "ng_tts_lang";
+  var TTS_BODY_KEY = "ng_tts_body";
+  var TTS_RATE_KEY = "ng_tts_rate";
+
+  var listen = {
+    on: false,
+    idx: 0,          // 当前条目在 currentStories() 里的位置
+    segs: [],        // 当前条目切好的句子
+    seg: 0,
+    rate: 1,
+    lang: "zh-HK",
+    withBody: false,
+    paused: false,
+    token: 0,        // 每次换条 +1，用来丢弃上一条的 onend
+    internal: false
+  };
+
+  try {
+    var _l = localStorage.getItem(TTS_LANG_KEY);
+    if(_l) listen.lang = _l;
+    listen.withBody = localStorage.getItem(TTS_BODY_KEY) === "1";
+    var _r = parseFloat(localStorage.getItem(TTS_RATE_KEY));
+    if(_r > 0.5 && _r < 2) listen.rate = _r;
+  } catch(err){}
+
+  function ttsOk(){
+    return typeof window.speechSynthesis !== "undefined" &&
+           typeof window.SpeechSynthesisUtterance !== "undefined";
+  }
+
+  // 优先用指定语言的音色（zh-HK 粤语 / zh-CN 普通话），没有就退到任意中文
+  function ttsVoice(){
+    if(!ttsOk()) return null;
+    var vs = window.speechSynthesis.getVoices() || [];
+    var want = String(listen.lang).replace("_", "-").toLowerCase();
+    var i, l;
+    for(i = 0; i < vs.length; i++){
+      l = String(vs[i].lang || "").replace("_", "-").toLowerCase();
+      if(l.indexOf(want) === 0) return vs[i];
+    }
+    for(i = 0; i < vs.length; i++){
+      if(/^zh/i.test(vs[i].lang || "")) return vs[i];
+    }
+    return null;
+  }
+
+  // Chrome 对单条长文本会在 ~15 秒处截断，所以按标点切成短句逐条念
+  function segmentsOf(text){
+    var t = String(text || "").replace(/\s+/g, " ").trim();
+    var out = [], buf = "";
+    for(var i = 0; i < t.length; i++){
+      var ch = t.charAt(i);
+      buf += ch;
+      if("。！？；!?;\n".indexOf(ch) >= 0 || buf.length >= 60){
+        if(buf.trim()) out.push(buf.trim());
+        buf = "";
+      }
+    }
+    if(buf.trim()) out.push(buf.trim());
+    return out;
+  }
+
+  function storySpeech(s){
+    var parts = [];
+    // 「｜」在朗读里没有语义，换成停顿
+    parts.push(String(s.title || "").replace(/[｜|]/g, "，") + "。");
+    // summary_short 是完整的首句；digest 结尾带「…」，念出来会断在半句上
+    var lead = s.summary_short || s.digest || s.summary || "";
+    if(lead) parts.push(String(lead).replace(/…+$/, "。"));
+    if(listen.withBody && s.body){
+      parts.push(s.body.split(/\n+/).join(" "));
+    }
+    return parts.join(" ");
+  }
+
+  function storyIndex(id){
+    var list = currentStories();
+    for(var i = 0; i < list.length; i++) if(list[i].id === id) return i;
+    return -1;
+  }
+
+  function updateListenBar(){
+    var bar = $("listenBar");
+    if(!bar) return;
+    bar.classList.toggle("on", listen.on);
+    if(!listen.on) return;
+    var list = currentStories();
+    // 自动刷新后条目数会变，别让下标越界
+    if(list.length && listen.idx >= list.length) listen.idx = list.length - 1;
+    var s = list[listen.idx];
+    $("lbKicker").textContent = "收听 " + (listen.idx + 1) + " / " + list.length +
+      (listen.paused ? " · 已暂停" : "");
+    $("lbTitle").textContent = s ? s.title : "";
+    $("lbToggle").innerHTML = listen.paused
+      ? '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.2v13.6l11-6.8z"/></svg>'
+      : '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="7" y="5" width="3.4" height="14" rx="1"/><rect x="13.6" y="5" width="3.4" height="14" rx="1"/></svg>';
+  }
+
+  function speakSeg(i){
+    if(!listen.on || listen.paused) return;
+    if(i >= listen.segs.length){ listenStep(1); return; }
+
+    listen.seg = i;
+    var u = new SpeechSynthesisUtterance(listen.segs[i]);
+    var v = ttsVoice();
+    if(v){ u.voice = v; u.lang = v.lang; } else { u.lang = listen.lang; }
+    u.rate = listen.rate;
+    u.pitch = 1;
+
+    var my = listen.token;
+    u.onend = function(){
+      // 被 cancel / 换条 / 暂停时，token 会变，这里的续播要作废
+      if(!listen.on || listen.paused || my !== listen.token) return;
+      speakSeg(i + 1);
+    };
+    u.onerror = function(){ /* 打断、网络音色失败都走这里，忽略 */ };
+    window.speechSynthesis.speak(u);
+  }
+
+  function readCurrentStory(){
+    if(!listen.on) return;
+    var list = currentStories();
+    var s = list[listen.idx];
+    if(!s){ stopListen(); return; }
+
+    listen.token++;
+    window.speechSynthesis.cancel();
+    listen.segs = segmentsOf(storySpeech(s));
+    listen.seg = 0;
+    listen.paused = false;
+
+    // 让列表和详情跟着朗读走，知道现在念到哪条
+    listen.internal = true;
+    state.storyId = s.id;
+    renderList();
+    renderDetail();
+    listen.internal = false;
+    var node = document.querySelector('.row[data-story="' + CSS.escape(s.id) + '"]');
+    if(node) node.scrollIntoView({ block: "nearest" });
+
+    updateListenBar();
+    // cancel 之后立刻 speak 在 Chrome 里偶尔会被吞掉，隔一拍更稳
+    setTimeout(function(){ if(listen.on) speakSeg(0); }, 60);
+  }
+
+  function listenStep(delta){
+    if(!listen.on) return;
+    var list = currentStories();
+    if(!list.length){ stopListen(); return; }
+    // 念到末尾就绕回第一条，像电台一样一直连着放，不想听了按 ✕
+    var next = listen.idx + delta;
+    if(next < 0) next = list.length - 1;
+    if(next >= list.length) next = 0;
+    listen.idx = next;
+    readCurrentStory();
+  }
+
+  function startListen(fromIndex){
+    if(!ttsOk()){
+      alert("这台设备的浏览器没有语音朗读能力（Web Speech），换个浏览器或系统再试。");
+      return;
+    }
+    var list = currentStories();
+    if(!list.length) return;
+    // 朗读和电台抢音频输出，先停电台
+    var audio = $("player");
+    if(audio && !audio.paused) audio.pause();
+
+    if(state.mod !== "news") switchModule("news");
+    listen.on = true;
+    listen.paused = false;
+    listen.idx = typeof fromIndex === "number" && fromIndex >= 0
+      ? Math.min(fromIndex, list.length - 1)
+      : Math.max(0, storyIndex(state.storyId));
+    readCurrentStory();
+  }
+
+  function stopListen(){
+    listen.on = false;
+    listen.token++;
+    listen.paused = false;
+    if(ttsOk()) window.speechSynthesis.cancel();
+    updateListenBar();
+  }
+
+  // 打断当前这句，用新的音色 / 语速把同一句重念一遍
+  function respeakCurrent(){
+    if(!listen.on) return;
+    listen.token++;
+    window.speechSynthesis.cancel();
+    setTimeout(function(){ if(listen.on && !listen.paused) speakSeg(listen.seg); }, 60);
+  }
+
+  function toggleListenPause(){
+    if(!listen.on) return;
+    if(listen.paused){
+      listen.paused = false;
+      window.speechSynthesis.resume();
+      // resume 在部分 Chrome 版本上无效，兜底：重念当前句
+      setTimeout(function(){
+        if(listen.on && !listen.paused && !window.speechSynthesis.speaking){
+          listen.token++;
+          speakSeg(listen.seg);
+        }
+      }, 260);
+    } else {
+      listen.paused = true;
+      window.speechSynthesis.pause();
+    }
+    updateListenBar();
+  }
+
+  // 进页面先摸一次音色表：Chrome 首次返回空，要等 voiceschanged
+  if(ttsOk()){
+    window.speechSynthesis.getVoices();
+    if(window.speechSynthesis.addEventListener){
+      window.speechSynthesis.addEventListener("voiceschanged", function(){ ttsVoice(); });
+    }
+  }
+
+
+  // ---------------------------------------------------------------
   // 设置模块
   // ---------------------------------------------------------------
   var THEMES = [["light","正常"],["dark","黑暗"],["sepia","护眼"],["glass","磨砂"]];
@@ -6567,6 +6874,34 @@
               return '<button data-set-theme="' + t[0] + '"' +
                      (state.theme === t[0] ? ' class="on"' : '') + '>' + t[1] + '</button>';
             }).join("") + '</div></div>';
+
+    html += '<div class="setrow"><div class="sl"><b>听新闻</b>' +
+            '<small>用系统自带的语音念新闻，不看画面也能听，一条念完自动下一条。' +
+            'iPhone / Mac 有粤语音色，安卓多半只有普通话，选不到会自动退回中文音色。</small></div>' +
+            '<div class="seg">' +
+              [["zh-HK","粤语"],["zh-CN","普通话"]].map(function(l){
+                return '<button data-set-tts-lang="' + l[0] + '"' +
+                       (listen.lang === l[0] ? ' class="on"' : '') + '>' + l[1] + '</button>';
+              }).join("") +
+            '</div></div>';
+
+    html += '<div class="setrow"><div class="sl"><b>朗读内容</b>' +
+            '<small>只念标题和一句话摘要（快），或连正文一起念（慢，但更完整）。</small></div>' +
+            '<div class="seg">' +
+              [[0,"摘要"],[1,"全文"]].map(function(b){
+                return '<button data-set-tts-body="' + b[0] + '"' +
+                       (listen.withBody === !!b[0] ? ' class="on"' : '') + '>' + b[1] + '</button>';
+              }).join("") +
+            '</div></div>';
+
+    html += '<div class="setrow"><div class="sl"><b>朗读语速</b>' +
+            '<small>新闻播报一般偏快，听不清就调慢一档。</small></div>' +
+            '<div class="seg">' +
+              [[0.85,"慢"],[1,"正常"],[1.15,"快"]].map(function(r){
+                return '<button data-set-tts-rate="' + r[0] + '"' +
+                       (Math.abs(listen.rate - r[0]) < 0.01 ? ' class="on"' : '') + '>' + r[1] + '</button>';
+              }).join("") +
+            '</div></div>';
 
     html += '<div class="setrow"><div class="sl"><b>更新方式</b>' +
             '<small>每次打开页面都会重新拉一次最新数据（绕过缓存），之后每 60 秒自动检查，' +
@@ -6672,6 +7007,11 @@
     renderDetail();
     // 窄窗口下切到详情
     if(window.innerWidth <= 780){ $("main").classList.add("split"); }
+    // 正在收听时点别的条目：从这一条接着念
+    if(listen.on && !listen.internal){
+      var i = storyIndex(id);
+      if(i >= 0){ listen.idx = i; readCurrentStory(); }
+    }
   }
 
   function openUrl(url){
@@ -6714,6 +7054,20 @@
     var refreshBtn = t.closest("[data-refresh-now]");
     if(refreshBtn){ refreshNow(); return; }
 
+    // 听新闻：详情页按钮 / 直播页入口
+    var listenBtn = t.closest("[data-listen]");
+    if(listenBtn){
+      if(listen.on) toggleListenPause();
+      else startListen();
+      return;
+    }
+    var listenAll = t.closest("[data-listen-all]");
+    if(listenAll){
+      if(listen.on) stopListen();
+      else startListen(0);
+      return;
+    }
+
     var plain = t.closest("[data-plain]");
     if(plain){ selectSection(null); return; }
 
@@ -6744,6 +7098,34 @@
 
     var pickFont = t.closest("[data-set-font]");
     if(pickFont){ setFont(pickFont.getAttribute("data-set-font")); renderSettings(); return; }
+
+    var pickLang = t.closest("[data-set-tts-lang]");
+    if(pickLang){
+      listen.lang = pickLang.getAttribute("data-set-tts-lang");
+      try { localStorage.setItem(TTS_LANG_KEY, listen.lang); } catch(err){}
+      if(listen.on) readCurrentStory();
+      renderSettings();
+      return;
+    }
+
+    var pickBody = t.closest("[data-set-tts-body]");
+    if(pickBody){
+      listen.withBody = pickBody.getAttribute("data-set-tts-body") === "1";
+      try { localStorage.setItem(TTS_BODY_KEY, listen.withBody ? "1" : "0"); } catch(err){}
+      if(listen.on) readCurrentStory();
+      renderSettings();
+      return;
+    }
+
+    var pickRate = t.closest("[data-set-tts-rate]");
+    if(pickRate){
+      listen.rate = parseFloat(pickRate.getAttribute("data-set-tts-rate")) || 1;
+      try { localStorage.setItem(TTS_RATE_KEY, String(listen.rate)); } catch(err){}
+      // 只改速度不用从这一条开头重念，接着当前这句往下走
+      if(listen.on){ listen.paused = false; respeakCurrent(); }
+      renderSettings();
+      return;
+    }
   });
 
   // 底部四大模块
@@ -6755,6 +7137,12 @@
   ["play", "pause", "playing", "waiting", "emptied", "error"].forEach(function(ev){
     $("player").addEventListener(ev, function(){ syncPlayerBtn(); });
   });
+
+  // 听新闻：控制条
+  $("lbToggle").addEventListener("click", toggleListenPause);
+  $("lbPrev").addEventListener("click", function(){ listenStep(-1); });
+  $("lbNext").addEventListener("click", function(){ listenStep(1); });
+  $("lbClose").addEventListener("click", stopListen);
 
   // 侧栏开关：窄屏唤出抽屉，宽屏收起/展开侧栏
   var NAV_KEY = "ng_nav_hidden";
