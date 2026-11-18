@@ -6784,6 +6784,9 @@
       alert("这台设备的浏览器没有语音朗读能力（Web Speech），换个浏览器或系统再试。");
       return;
     }
+    // 热搜视图里 currentStories() 是空的，先退回今日要闻，否则点了没反应
+    if(state.trend) selectSection(null);
+    if(state.mod !== "news") switchModule("news");
     var list = currentStories();
     if(!list.length) return;
     // 朗读和电台抢音频输出，先停电台
@@ -6858,6 +6861,11 @@
     var live = d.live || [];
     var srcs = d.sources || [];
 
+    // 分享版（--public）只带标题和摘要，没有 body；「全文」这个选项要跟着变
+    var allStories = (d.headlines || []).slice();
+    (d.sections || []).forEach(function(sec){ allStories = allStories.concat(sec.items || []); });
+    var hasBody = allStories.some(function(s){ return !!s.body; });
+
     var html = '<div class="mhead"><h2>设置</h2></div>';
 
     html += '<div class="setrow"><div class="sl"><b>字号</b>' +
@@ -6886,12 +6894,17 @@
             '</div></div>';
 
     html += '<div class="setrow"><div class="sl"><b>朗读内容</b>' +
-            '<small>只念标题和一句话摘要（快），或连正文一起念（慢，但更完整）。</small></div>' +
+            '<small>' + (hasBody
+              ? '只念标题和一句话摘要（快），或连正文一起念（慢，但更完整）。'
+              : '分享版只带标题和一句话摘要，没有正文；想听全文用本地版。') +
+            '</small></div>' +
             '<div class="seg">' +
-              [[0,"摘要"],[1,"全文"]].map(function(b){
-                return '<button data-set-tts-body="' + b[0] + '"' +
-                       (listen.withBody === !!b[0] ? ' class="on"' : '') + '>' + b[1] + '</button>';
-              }).join("") +
+              (hasBody
+                ? [[0,"摘要"],[1,"全文"]].map(function(b){
+                    return '<button data-set-tts-body="' + b[0] + '"' +
+                           (listen.withBody === !!b[0] ? ' class="on"' : '') + '>' + b[1] + '</button>';
+                  }).join("")
+                : '<span style="font-size:calc(11px * var(--fs));color:var(--t3)">仅摘要</span>') +
             '</div></div>';
 
     html += '<div class="setrow"><div class="sl"><b>朗读语速</b>' +
