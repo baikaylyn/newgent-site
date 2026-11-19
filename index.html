@@ -969,6 +969,7 @@
     trendItem: null,    // 热搜榜里选中的那一条（rank），null = 看榜单概览
     trendGroup: null,   // 微博这类带分类的榜，正在按哪个分类筛选（null = 全部）
     storyId: null,
+    srcFilter: null,    // 非 null = 只看某个来源（tvb / chinanews …），跨分区
     source: "",         // 数据来源说明
     radio: { key: null, hls: null }
   };
@@ -1105,6 +1106,7 @@
     var prevSection = state.section;
     var prevTrend = state.trend;
     var prevStory = state.storyId;
+    var prevSrc = state.srcFilter;
 
     state.data = obj;
     state.source = sourceLabel || "";
@@ -1119,11 +1121,15 @@
         ? VIDEO_SECTION
         : ((prevSection && secs.some(function(s){ return s.name === prevSection; }))
             ? prevSection : null);
+      // 来源还在就继续看，源没了（比如接口挂了）就退回今日要闻
+      state.srcFilter = (prevSrc && (obj.sources || []).some(function(s){ return s.name === prevSrc; }))
+        ? prevSrc : null;
       state.storyId = prevStory && findStory(prevStory)
         ? prevStory
         : (currentStories()[0] ? currentStories()[0].id : null);
     } else {
       state.section = null;
+      state.srcFilter = null;
       state.trend = null;
       var first = obj.headlines[0] || (obj.sections[0] && obj.sections[0].items[0]) || null;
       state.storyId = first ? first.id : null;
@@ -1286,9 +1292,47 @@
     });
   }
 
+  //: 「來源」筛选也是跨分区的：点了无綫新闻，就把所有分区里的 TVB 稿子并成一列
+  function sourceName(key){
+    var list = (state.data && state.data.sources) || [];
+    for(var i=0;i<list.length;i++){
+      if(list[i].name === key) return list[i].display || list[i].name;
+    }
+    return key;
+  }
+
+  // 同一个事件可能既在头条又在分区里，按 id 去重
+  function uniqStories(list){
+    var seen = {};
+    return list.filter(function(s){
+      if(seen[s.id]) return false;
+      seen[s.id] = 1;
+      return true;
+    });
+  }
+
+  function sourceStories(key){
+    return uniqStories(allStories().filter(function(s){
+      return (s.source || "") === key;
+    })).sort(function(a, b){
+      return String(b.published_at || "").localeCompare(String(a.published_at || ""));
+    });
+  }
+
+  // 每个来源有多少条（去重后），侧栏显示计数用
+  function sourceCounts(){
+    var m = {};
+    uniqStories(allStories()).forEach(function(s){
+      var k = s.source || "";
+      if(k) m[k] = (m[k] || 0) + 1;
+    });
+    return m;
+  }
+
   function currentStories(){
     if(!state.data) return [];
     if(state.trend) return [];   // 热搜视图没有事件，方向键不该在这里挪
+    if(state.srcFilter) return sourceStories(state.srcFilter);
     if(state.section === VIDEO_SECTION) return videoStories();
     if(state.section){
       var sec = state.data.sections.filter(function(s){ return s.name === state.section; })[0];
@@ -1327,7 +1371,7 @@
     var html = "";
 
     html += '<div class="sb-group">版面</div>';
-    html += sbItem("今日要闻", (d.headlines||[]).length, !state.section && !state.trend, false, null);
+    html += sbItem("今日要闻", (d.headlines||[]).length, !state.section && !state.trend && !state.srcFilter, false, null);
     html += sbItem("視頻", videoStories().length, state.section === VIDEO_SECTION, false, VIDEO_SECTION);
     html += sbItem("直播", (d.live||[]).length, false, false, "__live__");
 
@@ -1363,9 +1407,17 @@
     }
 
     if(d.sources && d.sources.length){
+      var sc = sourceCounts();
       html += '<div class="sb-group">来源</div>';
       d.sources.forEach(function(s){
-        html += '<div class="sb-item" style="cursor:default;color:var(--t3)">' + esc(s.display || s.name) + '</div>';
+        var n = sc[s.name] || 0;
+        // 这个源一篇都没抓到时不给点，免得点进去一片空白
+        if(!n) return;
+        html += '<div class="sb-item' + (state.srcFilter === s.name ? " on" : "") +
+                '" data-source="' + esc(s.name) + '" title="只看' + esc(s.display || s.name) + '">' +
+                  '<span>' + esc(s.display || s.name) + '</span>' +
+                  '<span class="cnt">' + n + '</span>' +
+                '</div>';
       });
     }
 
@@ -1389,21 +1441,24 @@
     if(state.trend){ renderTrendList(); return; }
 
     var list = currentStories();
-    $("listTitle").textContent = state.section || "今日要闻";
+    $("listTitle").textContent = state.srcFilter
+      ? sourceName(state.srcFilter)
+      : (state.section || "今日要闻");
     $("listCount").textContent = list.length + " 个事件";
 
     if(!list.length){
-      $("listScroll").innerHTML = '<div class="empty"><div class="e1">这个分区还没有内容</div></div>';
+      $("listScroll").innerHTML = '<div class="empty"><div class="e1">' +
+        (state.srcFilter ? "这个来源还没有内容" : "这个分区还没有内容") + '</div></div>';
       return;
     }
 
     var html = "";
 
-    // 今日速览：只挂在「今日要闻」顶部，分区里不重复出现
-    if(!state.section && !state.trend) html += briefCardHtml();
+    // 今日速览：只挂在「今日要闻」顶部，分区/来源里不重复出现
+    if(!state.section && !state.srcFilter && !state.trend) html += briefCardHtml();
 
     list.forEach(function(s, i){
-      var isHead = !state.section && i === 0;
+      var isHead = !state.section && !state.srcFilter && i === 0;
       html += '<div class="row' + (isHead ? " head" : "") + (s.id === state.storyId ? " on" : "") +
               '" data-story="' + esc(s.id) + '">' +
                 '<h3>' + esc(s.title) + '</h3>' +
@@ -1422,7 +1477,8 @@
     if(s.video) parts.push('<span class="vtag">▶ 視頻</span>');
     if(s.published_at) parts.push('<span>' + esc(fmtTime(s.published_at)) + '</span>');
     if((s.size || 1) > 1) parts.push('<span class="n">' + s.size + ' 篇报道</span>');
-    if(s.source_display) parts.push('<span>' + esc(s.source_display) + '</span>');
+    // 已经按来源筛过了，每条再标一遍来源是废话
+    if(s.source_display && !state.srcFilter) parts.push('<span>' + esc(s.source_display) + '</span>');
     return '<div class="meta">' + parts.join('<span class="sep"></span>') + '</div>';
   }
 
@@ -2466,6 +2522,7 @@
 
   function selectSection(name){
     state.section = name;
+    state.srcFilter = null;      // 分区与来源是两个互斥的视图，别叠加
     state.trend = null;
     state.trendItem = null;
     var list = currentStories();
@@ -2478,11 +2535,30 @@
     if(sc) sc.scrollTop = 0;
   }
 
+  // 侧栏「来源」：只看某一家（无綫新闻 / 星島頭條 / 中新網 …），跨分区合并
+  function selectSource(key){
+    if(!key) return;
+    // 再点一次同一个来源 = 取消筛选，回到今日要闻
+    state.srcFilter = (state.srcFilter === key) ? null : key;
+    state.section = null;
+    state.trend = null;
+    state.trendItem = null;
+    state.trendGroup = null;
+    var list = currentStories();
+    state.storyId = list.length ? list[0].id : null;
+    render();
+    closeDrawer();
+    if(window.innerWidth <= 780){ $("main").classList.remove("split"); }
+    var sc = $("listScroll");
+    if(sc) sc.scrollTop = 0;
+  }
+
   function selectTrend(key){
     state.trend = key;
     state.trendItem = null;
     state.trendGroup = null;
     state.section = null;
+    state.srcFilter = null;
     state.storyId = null;
     render();
     closeDrawer();
@@ -2537,6 +2613,10 @@
 
     var sec = t.closest("[data-sec]");
     if(sec){ selectSection(sec.getAttribute("data-sec")); return; }
+
+    // 侧栏「来源」筛选
+    var src = t.closest("[data-source]");
+    if(src){ selectSource(src.getAttribute("data-source")); return; }
 
     // 窄屏详情页的「返回列表」
     var back = t.closest("[data-back]");
