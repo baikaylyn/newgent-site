@@ -287,6 +287,19 @@
   .rel .rt{ font-size:calc(13.5px * var(--fs)); line-height:1.5; color:var(--t1); }
   .rel .rm{ font-size:calc(10px * var(--fs)); color:var(--t3); margin-top:3px; font-variant-numeric:tabular-nums; }
 
+  /* 窄屏返回列表：详情页左上角的小胶囊，宽屏不显示 */
+  .backbtn{
+    display:none; align-items:center; gap:4px;
+    margin-bottom:14px; padding:6px 13px 6px 8px;
+    border:1px solid var(--line); border-radius:999px;
+    background:transparent; color:var(--t2);
+    font-family:var(--font); font-size:calc(11.5px * var(--fs));
+    cursor:pointer;
+  }
+  .backbtn:hover{ background:var(--press); color:var(--t1); }
+  .backbtn svg{ width:14px; height:14px; }
+  @media (max-width:780px){ .backbtn{ display:inline-flex; } }
+
   /* ============================================================
      速览：正文抽 3 句，扫一眼就够
      ============================================================ */
@@ -781,6 +794,10 @@
 </div>
 
 <div class="app">
+  <!-- 抽屉遮罩必须放在 .app 里面：.app 有 z-index:1，自成一个层叠上下文，
+       放在外面的话遮罩(110)会盖住整个 .app，包括 z-index:120 的侧栏——
+       表现就是「抽屉打开了，点栏目没反应」，其实点中的是遮罩。 -->
+  <div class="drawer-mask" id="drawerMask"></div>
   <header class="topbar">
     <button class="menu-btn" id="menuBtn" title="分区与热搜" aria-label="打开分区">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -889,8 +906,6 @@
     </button>
   </nav>
 </div>
-
-<div class="drawer-mask" id="drawerMask"></div>
 
 <audio id="player" preload="none"></audio>
 
@@ -7242,6 +7257,22 @@
     $("listScroll").innerHTML = html;
   }
 
+  // 窄屏详情页左上角的返回按钮。桌面端靠 CSS 隐藏
+  function backBtnHtml(){
+    return '<button class="backbtn" data-back="1">' +
+             '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ' +
+               'stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 6.5 8 12l6.5 5.5"/></svg>' +
+             '<span>返回列表</span>' +
+           '</button>';
+  }
+
+  // 窄屏从详情退回列表，并把刚才那条滚回视野
+  function backToList(){
+    $("main").classList.remove("split");
+    var node = document.querySelector('.row[data-story="' + CSS.escape(state.storyId || "") + '"]');
+    if(node && node.scrollIntoView) node.scrollIntoView({ block: "center" });
+  }
+
   // ---------------------------------------------------------------
   // 渲染：详情
   // ---------------------------------------------------------------
@@ -7258,7 +7289,7 @@
       return;
     }
 
-    var html = '<div class="detail-inner">';
+    var html = '<div class="detail-inner">' + backBtnHtml();
 
     // 标题在左，操作按钮钉右上角（窄屏由 CSS 挪到标题上方）
     html += '<div class="dhead"><div class="dhead-main">';
@@ -7435,7 +7466,7 @@
         if(it.heat) by.push(fmtCount(it.heat) + ' 热度');
         if(it.category) by.push(esc(it.category));
 
-        var html = '<div class="detail-inner">';
+        var html = '<div class="detail-inner">' + backBtnHtml();
         html += '<div class="kicker">' + esc(it.group || platform) + '</div>';
         html += '<h1>' + esc(it.title) + '</h1>';
         html += '<div class="byline">' + by.join('<span class="sep"></span>') + '</div>';
@@ -7504,6 +7535,8 @@
 
   function switchModule(name){
     if(MODULES.indexOf(name) < 0) return;
+    // 窄屏正在看详情时点底部「新闻」，等同于返回列表
+    if(name === "news" && $("main").classList.contains("split")) backToList();
     state.mod = name;
     MODULES.forEach(function(m){
       var el = modEl(m);
@@ -8197,6 +8230,10 @@
 
     var sec = t.closest("[data-sec]");
     if(sec){ selectSection(sec.getAttribute("data-sec")); return; }
+
+    // 窄屏详情页的「返回列表」
+    var back = t.closest("[data-back]");
+    if(back){ backToList(); return; }
 
     var tr = t.closest("[data-trend]");
     if(tr){ selectTrend(tr.getAttribute("data-trend")); return; }
