@@ -5,7 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- 不主动被搜索引擎收录：这是只给链接的分享页，不想进搜索结果 -->
 <meta name="robots" content="noindex, nofollow">
-<meta name="referrer" content="no-referrer-when-downgrade">
+<!-- 必须 no-referrer：中新视频的 CDN（v-oss.cnsimg.net / poss-videocloud）
+     开了防盗链，Referer 不是自家域名就回 403 + text/html，浏览器随即按
+     ORB 把整条媒体请求判掉（MEDIA_ERR_SRC_NOT_SUPPORTED）——表现就是
+     「视频全都播不了」。不带头 Referer 时 CDN 放行。 -->
+<meta name="referrer" content="no-referrer">
 <title>NewGent</title>
 <style>
   /* ============================================================
@@ -284,6 +288,8 @@
     transition:opacity .13s ease;
   }
   .rel:hover{ opacity:.65; }
+  .rel.on{ background:var(--press); box-shadow:inset 2px 0 0 var(--accent); padding-left:9px; }
+  .rel.on .rt{ color:var(--accent); font-weight:600; }
   .rel .rt{ font-size:calc(13.5px * var(--fs)); line-height:1.5; color:var(--t1); }
   .rel .rm{ font-size:calc(10px * var(--fs)); color:var(--t3); margin-top:3px; font-variant-numeric:tabular-nums; }
 
@@ -451,6 +457,25 @@
   }
   .tgroup .n{ color:var(--t3); font-weight:400; letter-spacing:0; }
   .tgroup:first-child{ padding-top:10px; }
+
+  /* 热搜分类筛选条：横向滚动的胶囊，微博那种带分类的榜才有 */
+  .tfilter{
+    display:flex; gap:7px; align-items:center;
+    padding:11px 18px 9px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+    border-bottom:1px solid var(--line); scrollbar-width:none;
+  }
+  .tfilter::-webkit-scrollbar{ display:none; }
+  .tfilter .tf{
+    flex:0 0 auto; display:inline-flex; align-items:center; gap:5px;
+    padding:5px 11px; border:1px solid var(--line); border-radius:999px;
+    background:transparent; color:var(--t2); cursor:pointer;
+    font-family:var(--font); font-size:calc(11px * var(--fs)); line-height:1.4;
+    white-space:nowrap;
+  }
+  .tfilter .tf span{ color:var(--t3); font-variant-numeric:tabular-nums; font-size:calc(9.5px * var(--fs)); }
+  .tfilter .tf:hover{ background:var(--press); }
+  .tfilter .tf.on{ background:var(--accent); border-color:var(--accent); color:#fff; }
+  .tfilter .tf.on span{ color:rgba(255,255,255,.75); }
   /* 热搜行里的摘要：两行截断 */
   .trow .tx .sm{
     display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
@@ -9205,6 +9230,7 @@
     section: null,      // null = 今日要闻
     trend: null,        // 非 null = 正在看某个热搜榜（weibo / bilibili …）
     trendItem: null,    // 热搜榜里选中的那一条（rank），null = 看榜单概览
+    trendGroup: null,   // 微博这类带分类的榜，正在按哪个分类筛选（null = 全部）
     storyId: null,
     source: "",         // 数据来源说明
     radio: { key: null, hls: null }
@@ -9706,23 +9732,45 @@
       return;
     }
     var items = b.items || [];
-    $("listCount").textContent = items.length + " 条";
 
     if(!items.length){
+      $("listCount").textContent = "";
       $("listScroll").innerHTML = '<div class="empty"><div class="e1">这个榜暂时没数据</div></div>';
       return;
     }
 
     var html = "";
-    if(b.grouped && b.groups && b.groups.length){
+    var groups = (b.grouped && b.groups) ? b.groups : null;
+
+    // 分类筛选条：微博这类榜自带分类，点一下只看这一类
+    if(groups && groups.length > 1){
+      html += '<div class="tfilter">' +
+                '<button class="tf' + (state.trendGroup ? "" : " on") + '" data-trend-group="">全部' +
+                  '<span>' + items.length + '</span></button>' +
+                groups.map(function(g){
+                  return '<button class="tf' + (state.trendGroup === g.group ? " on" : "") +
+                         '" data-trend-group="' + esc(g.group) + '">' + esc(g.group) +
+                         '<span>' + g.count + '</span></button>';
+                }).join("") +
+              '</div>';
+    }
+
+    if(groups && groups.length){
       // 平台自带分类（微博），按时政 → 民生 → 娱乐 → 体育 → 财经科技 → 其他 排
-      b.groups.forEach(function(g){
+      var shown = 0;
+      groups.forEach(function(g){
+        if(state.trendGroup && g.group !== state.trendGroup) return;
+        var list = g.items || [];
+        if(!list.length) return;
+        shown += list.length;
         html += '<div class="tgroup"><span>' + esc(g.group) + '</span>' +
                 '<span class="n">' + g.count + '</span></div>';
-        html += (g.items || []).map(function(it, i){ return trendRow(it, i + 1); }).join("");
+        html += list.map(function(it, i){ return trendRow(it, i + 1); }).join("");
       });
+      $("listCount").textContent = (state.trendGroup ? shown + " / " : "") + items.length + " 条";
     } else {
-      html = items.map(trendRow).join("");
+      html += items.map(trendRow).join("");
+      $("listCount").textContent = items.length + " 条";
     }
     $("listScroll").innerHTML = html;
   }
@@ -9966,17 +10014,19 @@
          '点左边任意一条，右边会显示这一条的一句话摘要。</div>';
 
     if(b.grouped && b.groups && b.groups.length){
-      h += '<div class="related"><div class="rh">分类分布</div>';
+      h += '<div class="related"><div class="rh">分类分布（点一下只看这一类）</div>';
       b.groups.forEach(function(g){
-        h += '<button class="rel" data-trend-group="' + esc(g.group) + '">' +
+        h += '<button class="rel' + (state.trendGroup === g.group ? " on" : "") +
+             '" data-trend-group="' + esc(g.group) + '">' +
                '<div class="rt">' + esc(g.group) + '</div>' +
                '<div class="rm">' + g.count + ' 条</div>' +
              '</button>';
       });
       h += '</div>';
     } else if(items.length){
-      h += '<div class="related"><div class="rh">前三位</div>';
-      items.slice(0, 3).forEach(function(it){
+      // 概览里给前二十位：左边列表能滚到全部，这里给一眼看完的短名单
+      h += '<div class="related"><div class="rh">前二十位</div>';
+      items.slice(0, 20).forEach(function(it){
         h += '<button class="rel" data-trend-item="' + it.rank + '">' +
                '<div class="rt">' + it.rank + '. ' + esc(it.title) + '</div>' +
                (it.summary ? '<div class="rm">' + esc(it.summary) + '</div>' : '') +
@@ -10658,11 +10708,25 @@
   function selectTrend(key){
     state.trend = key;
     state.trendItem = null;
+    state.trendGroup = null;
     state.section = null;
     state.storyId = null;
     render();
     closeDrawer();
     // 窄屏下热搜榜要看榜单本身，不是右侧的概览，所以不进详情
+    if(window.innerWidth <= 780){ $("main").classList.remove("split"); }
+    var sc = $("listScroll");
+    if(sc) sc.scrollTop = 0;
+  }
+
+  // 按平台自带的分类筛选榜单（微博：时政 / 民生 / 娱乐 …）
+  function selectTrendGroup(group){
+    group = group || null;                       // 空字符串 = 全部
+    state.trendGroup = (state.trendGroup === group) ? null : group;
+    state.trendItem = null;
+    renderList();
+    renderDetail();
+    // 窄屏：筛完要看列表，别停在概览页
     if(window.innerWidth <= 780){ $("main").classList.remove("split"); }
     var sc = $("listScroll");
     if(sc) sc.scrollTop = 0;
@@ -10707,6 +10771,10 @@
 
     var tr = t.closest("[data-trend]");
     if(tr){ selectTrend(tr.getAttribute("data-trend")); return; }
+
+    // 热搜分类筛选（微博的时政 / 民生 / 娱乐 …）；空字符串 = 看全部
+    var tg = t.closest("[data-trend-group]");
+    if(tg){ selectTrendGroup(tg.getAttribute("data-trend-group") || ""); return; }
 
     // 热搜条目：站内看摘要，不跳站
     var trItem = t.closest("[data-trend-item]");
